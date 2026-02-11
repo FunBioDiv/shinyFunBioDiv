@@ -1,11 +1,26 @@
+# length unique --------------------------------
+#' number of unique elements
+#'
+#' @export
+length_unique <- function(x) {
+  #remove empty string
+  x <- x[!is.na(x)]
+  x <- x[x != ""]
+  x <- firstup(x)
+  length(unique(x[!is.na(x)]))
+}
+
+
 # concat ---------------------------------------
 #' concatenate unique list of characters
 #'
 #' @export
-concat <- function(x) {
+concat <- function(x, sep = ", ") {
   #remove empty string
+  x <- x[!is.na(x)]
   x <- x[x != ""]
-  paste(sort(unique(x)), collapse = ", ")
+  x <- firstup(x)
+  paste(sort(unique(x)), collapse = sep)
 }
 
 
