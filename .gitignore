@@ -39,14 +39,15 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
 # RStudio Connect folder
 rsconnect/
 
 # raw data file (also in shared GoogleDrive)
 data/FunBioDiv_MetaData_Data.xlsx
+
+# dev files
+analysis/dev*.qmd
+
+# data
+data/17parcelles*
+data/XYpoint1*

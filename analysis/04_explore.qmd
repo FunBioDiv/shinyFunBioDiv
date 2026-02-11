@@ -1,0 +1,87 @@
+---
+title: "Exploration of field dataset"
+author: "FunBioDiv, FRB-CESAB"
+format:
+  dashboard:
+    orientation: columns
+    embed-resources: true
+    nav-buttons: [github]
+---
+
+# General Overview
+
+```{r libraries}
+library(plotly)
+library(terra)
+
+library(collapse)
+library(RColorBrewer)
+
+library(here)
+
+library(crosstalk)
+library(leaflet)
+library(DT)
+
+devtools::load_all()
+```
+
+```{r load}
+field <- st_read(here::here("data", "Fields_Unique.gpkg"), quiet = TRUE)
+```
+
+## Spatial {width=40%}
+
+```{r}
+mapview::mapview(field, zcol = "Study_ID")
+```
+
+## Table {width=60%}
+
+```{r table}
+meta <- read.csv(here::here("data", "coordinates_year_crop.csv"))
+meta$Study_ID <- as.factor(meta$Study_ID)
+n <- table(meta$Study_ID)
+meta$Latlong <- paste0(meta$Long, meta$Lat, sep = "_")
+missite <- tapply(
+  meta$Plot_ID[is.na(meta$Lat)],
+  meta$Study_ID[is.na(meta$Lat)],
+  length_unique
+)
+study <- data.frame(
+  "Study_ID" = names(n),
+  "n_year_crop" = as.integer(n),
+  "n_plot" = tapply(meta$Plot_ID, meta$Study_ID, length_unique),
+  "unique_coordinates" = tapply(meta$Latlong, meta$Study_ID, length_unique),
+  "missing_coordinates" = tapply(is.na(meta$Lat), meta$Study_ID, sum),
+  "site_missing" = ifelse(is.na(missite), 0, missite),
+  "n_years" = tapply(meta$Year, meta$Study_ID, length_unique),
+  "n_crops" = tapply(meta$Crop_species, meta$Study_ID, length_unique),
+  "years" = tapply(meta$Year, meta$Study_ID, concat),
+  "div_crop" = tapply(meta$Crop_species, meta$Study_ID, concat)
+)
+
+DT::datatable(
+  study,
+  rownames = FALSE,
+  extensions = "Scroller",
+  width = "100%",
+  options = list(deferRender = TRUE, scrollY = 700, scroller = TRUE, paging = TRUE ),
+  caption = "Characteristics of the projects.'n_year_crop' is the number of plot x years x crop; 'n_plot' is the number of plot; 'unique_coordinates' is the number of unique coordinates; 'missing_coordinates' is the number of plot x years x crop with missing coordinates; 'site_missing' is the number of plot with missing coordinates; 'n_years' is the number of years with at least one plot; 'n_crops' is the number of different crops; 'years' are the different years with at least one plot; 'div_crop' contains the different crops with at least one plot. "
+)
+```
+
+
+
+
+# Missing coordinates
+
+```{r miss}
+DT::datatable(
+  meta[is.na(meta$Lat), 1:4],
+  rownames = FALSE,
+  extensions = "Scroller",
+  width = "100%",
+  options = list(deferRender = TRUE, scrollY = 750, scroller = TRUE, paging = TRUE )
+)
+```

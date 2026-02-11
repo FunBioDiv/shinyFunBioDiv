@@ -2,4 +2,6 @@
 
 export(concat)
 export(firstup)
+export(length_unique)
+export(minmax)
 export(runShiny)

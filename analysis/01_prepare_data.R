@@ -221,6 +221,25 @@ st_write(
   append = FALSE
 )
 
+# export for gis-diversification
+# keep <- c("Study_ID", "Site", "longitude", "latitude", "Year")
+# gis_pts <- gis[fullcoo, keep]
+# gis_pts <- gis_pts[!duplicated(gis_pts), ]
+# pts <- st_as_sf(
+#   gis_pts[, keep],
+#   coords = c("longitude", "latitude"),
+#   crs = 4326
+# )
+
+# # check visualization
+# mapview::mapview(pts, zcol = "Study_ID")
+
+# # B5. Export shapefile
+# st_write(
+#   pts,
+#   dsn = here::here("app", "data", "all_points.gpkg")
+# )
+
 # no need to calculate convex hull anymore
 # B4. calculate convex hull
 # so far, simple with sf function, but could also use

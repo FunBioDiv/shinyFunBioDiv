@@ -174,6 +174,3 @@ write.csv(
   file = here::here("app", "data", "cont_table.csv"),
   row.names = FALSE
 )
-
-# View(smalldf)
-# get the practices

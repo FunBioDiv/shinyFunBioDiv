@@ -4,7 +4,7 @@
 \alias{concat}
 \title{concatenate unique list of characters}
 \usage{
-concat(x)
+concat(x, sep = ", ")
 }
 \description{
 concatenate unique list of characters
