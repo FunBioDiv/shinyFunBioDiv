@@ -68,3 +68,8 @@ rsconnect::deployApp(
 quarto::quarto_render("analysis/04_explore.qmd")
 file.rename("analysis/04_explore.html", "docs/metadata_Funbiodiv.html")
 ```
+
+```r
+quarto::quarto_render("analysis/05_overview.qmd")
+file.rename("analysis/05_overview.html", "docs/overview_Funbiodiv.html")
+```
