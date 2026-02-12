@@ -1,0 +1,147 @@
+---
+title: "Exploration of FunBioDiv field dataset"
+author: "FunBioDiv, FRB-CESAB"
+format:
+  dashboard:
+    orientation: columns
+    embed-resources: true
+    nav-buttons: [github]
+---
+
+```{r libraries}
+library(plotly)
+library(terra)
+
+library(collapse)
+library(RColorBrewer)
+
+library(here)
+
+library(crosstalk)
+library(leaflet)
+library(DT)
+
+devtools::load_all()
+# quarto::quarto_render("analysis/dev-test1.qmd")
+```
+
+```{r load}
+field <- st_read(here::here("data", "Fields_Unique.gpkg"), quiet = TRUE)
+
+field$popup <- paste0(
+  "<strong>Study_ID: ",
+  field$Study_ID,
+  "</strong><br>Plot_ID: ",
+  field$Plot_ID,
+  "<br> Years: ",
+  field$Years,
+  "<br> N crops: ",
+  field$N_crops,
+  "<br> Crops: ",
+  field$Crops
+)
+
+pal <- leaflet::colorFactor("viridis", domain = NULL)
+keepPal <- pal(sort(unique(field$Study_ID)))
+names(keepPal) <- sort(unique(field$Study_ID))
+stablePal <- function(x) {
+  return(as.character(keepPal[x]))
+}
+
+meta <- read.csv(here::here("data", "coordinates_year_crop.csv"))
+meta$Study_ID <- as.character(meta$Study_ID)
+meta$fac_Study_ID <- as.factor(meta$Study_ID)
+n <- table(meta$Study_ID)
+meta$Latlong <- paste(meta$Long, meta$Lat, sep = "_")
+missite <- tapply(
+  meta$Plot_ID[is.na(meta$Lat)],
+  meta$Study_ID[is.na(meta$Lat)],
+  length_unique
+)
+study <- data.frame(
+  "Study_ID" = names(n),
+  "n_year_crop" = as.integer(n),
+  "n_plot" = tapply(meta$Plot_ID, meta$fac_Study_ID, length_unique),
+  "unique_coordinates" = tapply(meta$Latlong, meta$fac_Study_ID, length_unique),
+  "missing_coordinates" = tapply(is.na(meta$Lat), meta$fac_Study_ID, sum),
+  "site_missing" = ifelse(is.na(missite), 0, missite),
+  "n_years" = tapply(meta$Year, meta$fac_Study_ID, length_unique),
+  "n_crops" = tapply(meta$Crop_species, meta$fac_Study_ID, length_unique),
+  "years" = tapply(meta$Year, meta$fac_Study_ID, concat),
+  "div_crop" = tapply(meta$Crop_species, meta$fac_Study_ID, concat)
+)
+
+
+sd <- SharedData$new(field)
+sd_df <- SharedData$new(
+  data.frame(field)[, 1:6],
+  group = sd$groupName()
+)
+```
+
+## Spatial {width=40% .tabset}
+
+```{r map}
+#| title: Interactive map
+leaflet(sd) |>
+  addTiles(
+    options = providerTileOptions(minZoom = 3, maxZoom = 15)
+  ) |>
+  addCircleMarkers(
+    data = sd,
+    fillColor = ~ stablePal(Study_ID),
+    fillOpacity = 1,
+    color = ~ stablePal(Study_ID),
+    weight = 1,
+    popup = ~popup
+  ) |>
+  addLegend(
+    labels = sort(unique(field$Study_ID)),
+    position = "bottomleft",
+    color = stablePal(sort(unique(field$Study_ID)))
+  )
+```
+
+```{r}
+#| title: Overview table
+DT::datatable(
+  study,
+  rownames = FALSE,
+  extensions = "Scroller",
+  width = "100%",
+  options = list(
+    deferRender = TRUE,
+    scrollY = 650,
+    scroller = TRUE,
+    paging = TRUE
+  ),
+  caption = "Characteristics of the projects.'n_year_crop' is the number of plot x years x crop; 'n_plot' is the number of plot; 'unique_coordinates' is the number of unique coordinates; 'missing_coordinates' is the number of plot x years x crop with missing coordinates; 'site_missing' is the number of plot with missing coordinates; 'n_years' is the number of years with at least one plot; 'n_crops' is the number of different crops; 'years' are the different years with at least one plot; 'div_crop' contains the different crops with at least one plot. "
+)
+```
+
+## Table {width=60%}
+
+### Row {height=20%}
+
+```{r select}
+filter_select("Study_ID", "Select a project", sd, ~Study_ID)
+```
+
+### Row {height=80%}
+
+```{r table}
+DT::datatable(
+  sd_df,
+  rownames = FALSE,
+  extensions = "Scroller",
+  style = "bootstrap",
+  class = "compact",
+  width = "100%",
+  options = list(
+    deferRender = TRUE,
+    scrollY = 750,
+    scroller = TRUE,
+    paging = TRUE
+  )
+)
+```

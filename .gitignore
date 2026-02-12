@@ -46,7 +46,7 @@ rsconnect/
 data/FunBioDiv_MetaData_Data.xlsx
 
 # dev files
-analysis/dev*.qmd
+analysis/dev-*
 
 # data
 data/17parcelles*
