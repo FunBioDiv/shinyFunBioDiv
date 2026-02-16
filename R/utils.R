@@ -6,6 +6,7 @@ length_unique <- function(x) {
   #remove empty string
   x <- x[!is.na(x)]
   x <- x[x != ""]
+  x <- x[x != "NA_NA"]
   x <- firstup(x)
   length(unique(x[!is.na(x)]))
 }

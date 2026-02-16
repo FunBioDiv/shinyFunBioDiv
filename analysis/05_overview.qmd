@@ -1,5 +1,5 @@
 ---
-title: "Exploration of FunBioDiv field dataset"
+title: "Overview of field coordinates"
 author: "FunBioDiv, FRB-CESAB"
 format:
   dashboard:
@@ -22,7 +22,6 @@ library(leaflet)
 library(DT)
 
 devtools::load_all()
-# quarto::quarto_render("analysis/dev-test1.qmd")
 ```
 
 ```{r load}
@@ -55,7 +54,7 @@ n <- table(meta$Study_ID)
 meta$Latlong <- paste(meta$Long, meta$Lat, sep = "_")
 missite <- tapply(
   meta$Plot_ID[is.na(meta$Lat)],
-  meta$Study_ID[is.na(meta$Lat)],
+  meta$fac_Study_ID[is.na(meta$Lat)],
   length_unique
 )
 study <- data.frame(
@@ -67,8 +66,8 @@ study <- data.frame(
   "site_missing" = ifelse(is.na(missite), 0, missite),
   "n_years" = tapply(meta$Year, meta$fac_Study_ID, length_unique),
   "n_crops" = tapply(meta$Crop_species, meta$fac_Study_ID, length_unique),
-  "years" = tapply(meta$Year, meta$fac_Study_ID, concat),
-  "div_crop" = tapply(meta$Crop_species, meta$fac_Study_ID, concat)
+  "years" = tapply(meta$Year, meta$fac_Study_ID, concat) #,
+  #"div_crop" = tapply(meta$Crop_species, meta$fac_Study_ID, concat)
 )
 
 
@@ -79,10 +78,38 @@ sd_df <- SharedData$new(
 )
 ```
 
-## Spatial {width=40% .tabset}
+# Overview
+
+## Overview {width=100%}
+
+### Description
+This is a quick overview of the dataset gathered in the [Funbiodiv project](https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/funbiodiv/) **for internal use only**.  
+
+If you are a data provider, please have a look at the [Spatial tab](https://funbiodiv.github.io/shinyFunBioDiv/overview_Funbiodiv.html#spatial), select the project(s) of interest, and **verify that all information is correct and nothing is missing**. 
+If your project has some missing coordinates, you can view which plot is missing in the tab [missing coordinates](https://funbiodiv.github.io/shinyFunBioDiv/overview_Funbiodiv.html#missing-coordinates).
+If you find any errors, please email [Axelle](mailto:axelle.tortosa@inrae.fr) or [Romain](mailto:romain.frelat@fondationbiodiversite.fr).
+
+Thanks again for your help! 
+
+### Table
+```{r}
+DT::datatable(
+  study,
+  rownames = FALSE,
+  extensions = "Scroller",
+  width = "100%",
+  options = list(
+    pageLength = 15
+  ),
+  caption = "Characteristics of the projects.'n_year_crop' is the number of plot x years x crop; 'n_plot' is the number of plot; 'unique_coordinates' is the number of unique coordinates; 'missing_coordinates' is the number of plot x years x crop with missing coordinates; 'site_missing' is the number of plot with missing coordinates; 'n_years' is the number of years with at least one plot; 'n_crops' is the number of different crops; 'years' are the different years with at least one plot. "
+)
+```
+
+# Spatial
+
+## Spatial {width=40%}
 
 ```{r map}
-#| title: Interactive map
 leaflet(sd) |>
   addTiles(
     options = providerTileOptions(minZoom = 3, maxZoom = 15)
@@ -102,22 +129,6 @@ leaflet(sd) |>
   )
 ```
 
-```{r}
-#| title: Overview table
-DT::datatable(
-  study,
-  rownames = FALSE,
-  extensions = "Scroller",
-  width = "100%",
-  options = list(
-    deferRender = TRUE,
-    scrollY = 650,
-    scroller = TRUE,
-    paging = TRUE
-  ),
-  caption = "Characteristics of the projects.'n_year_crop' is the number of plot x years x crop; 'n_plot' is the number of plot; 'unique_coordinates' is the number of unique coordinates; 'missing_coordinates' is the number of plot x years x crop with missing coordinates; 'site_missing' is the number of plot with missing coordinates; 'n_years' is the number of years with at least one plot; 'n_crops' is the number of different crops; 'years' are the different years with at least one plot; 'div_crop' contains the different crops with at least one plot. "
-)
-```
 
 ## Table {width=60%}
 
@@ -140,6 +151,32 @@ DT::datatable(
   options = list(
     deferRender = TRUE,
     scrollY = 750,
+    scroller = TRUE,
+    paging = TRUE
+  )
+)
+```
+
+
+# Missing coordinates
+
+## Select {width=30%}
+
+```{r miss}
+sd_miss <- SharedData$new(meta[is.na(meta$Lat), 1:4])
+filter_select("Study_ID", "Select a project", sd_miss, ~Study_ID)
+```
+
+## View {width=70%}
+```{r}
+DT::datatable(
+  sd_miss,
+  rownames = FALSE,
+  extensions = "Scroller",
+  width = "100%",
+  options = list(
+    deferRender = TRUE,
+    scrollY = 700,
     scroller = TRUE,
     paging = TRUE
   )
