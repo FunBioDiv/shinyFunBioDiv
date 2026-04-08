@@ -12,6 +12,12 @@ library(sf) |> suppressWarnings()
 # 1. Load data from Axelle
 meta <- read.csv2("data/dataset_coordinates_wCropSpecies.csv")
 
+# Create an ID per site
+ID <- paste(meta$Study_ID, meta$Plot_ID, meta$Year, sep = "_")
+
+# remove duplicates : SEBIOPAG_VcG 2022 and 2023
+meta <- meta[!duplicated(ID), ]
+
 # guess the coordinate system
 proj <- ifelse(meta$Long > 180, "LAMB93", "WGS84")
 # transform LAMB93 to WGS84

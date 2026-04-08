@@ -65,6 +65,11 @@ rsconnect::deployApp(
 ## Create the metadata Dashboard
 
 ```r
+# update the coordinates
+source("analysis/03_update_data.R")
+```
+
+```r
 quarto::quarto_render("analysis/04_explore.qmd")
 file.rename("analysis/04_explore.html", "docs/metadata_Funbiodiv.html")
 ```
