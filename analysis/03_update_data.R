@@ -1,14 +1,16 @@
 # Read and pre-process the metadata
 # The input file was sent by Axelle on 27/01/2026
+# with update from Sylvie Ladet (Sebiopag_VcG) on 17/12/2026
+# with update from Frederic Fabre (OSCAR) on 03/04/2026
 
-# Creates one  files for the shiny app
+# Creates one files for the shiny app
 
 # load the needed package and functions
 devtools::load_all()
 library(sf) |> suppressWarnings()
 
+# 1. Load data from Axelle
 meta <- read.csv2("data/dataset_coordinates_wCropSpecies.csv")
-
 
 # guess the coordinate system
 proj <- ifelse(meta$Long > 180, "LAMB93", "WGS84")
@@ -20,6 +22,8 @@ coo_4326 <- st_coordinates(shp_4326)
 meta[proj %in% "LAMB93", c("Long", "Lat")] <- coo_4326
 
 # plot(meta$Long, meta$Lat)
+
+# 2. update from Sylvie Ladet (Sebiopag_VcG) on 17/12/2026
 sebiopagF <- st_read(
     "data/XYpoint1_transect1_17parcelles_Sebiopag_Toulouse_L93.shp"
 )
@@ -30,15 +34,33 @@ coo_vcg <- data.frame(
 )
 
 # Replace SEBIOPAG_VcG coordinates
-m0 <- match(meta$Plot_ID[meta$Study_ID == "SEBIOPAG_VcG"], coo_vcg$Site)
-meta$Lat[meta$Study_ID == "SEBIOPAG_VcG"] <- coo_vcg$Y[m0]
-meta$Long[meta$Study_ID == "SEBIOPAG_VcG"] <- coo_vcg$X[m0]
+# but not for T08, T18 and T19 which doesn't have coordinates in Sylvie's dataset
+sel <- meta$Study_ID == "SEBIOPAG_VcG" & meta$Plot_ID %in% coo_vcg$Site
+m0 <- match(meta$Plot_ID[sel], coo_vcg$Site)
+meta$Lat[sel] <- coo_vcg$Y[m0]
+meta$Long[sel] <- coo_vcg$X[m0]
 
-write.csv(meta, "coordinates_year_crop.csv", row.names = FALSE)
 
-meta <- read.csv("coordinates_year_crop.csv")
-dim(meta) # 2068
-length(unique(paste0(meta$Long, meta$Lat, sep = "_")))
+# 3. update from Frederic Fabre (OSCAR) on 03/04/2026
+oscar <- readxl::read_xlsx("data/OSCAR_gps_manquant_VF.xlsx")
+rm <- oscar$plot[oscar$latitude %in% c("à supprimer", "Plot arraché")]
+oscar <- oscar[!oscar$plot %in% rm, ]
+sel <- meta$Study_ID == "OSCAR" & meta$Plot_ID %in% oscar$plot
+m1 <- match(meta$Plot_ID[sel], oscar$plot)
+meta$Lat[sel] <- as.numeric(oscar$latitude[m1])
+meta$Long[sel] <- as.numeric(oscar$longitude[m1])
+meta <- meta[!(meta$Study_ID == "OSCAR" & meta$Plot_ID %in% rm), ]
+
+# table(is.na(meta$Lat), meta$Study_ID, useNA = "ifany")
+write.csv(
+    meta,
+    here::here("data", "coordinates_year_crop.csv"),
+    row.names = FALSE
+)
+
+meta <- read.csv(here::here("data", "coordinates_year_crop.csv"))
+dim(meta) # 2059
+length(unique(paste0(meta$Long, meta$Lat, sep = "_"))) # 592
 
 meta$ID <- paste(meta$Study_ID, meta$Plot_ID, sep = "@")
 uID <- sort(unique(meta$ID))
@@ -67,79 +89,3 @@ umeta[!is.na(umeta$Lat), -1] |>
         here::here("data", "Fields_Unique.gpkg"),
         overwrite = TRUE
     )
-
-range(umeta$Long, na.rm = TRUE)
-
-meta$ID2 <- paste(meta$Study_ID, meta$Plot_ID, meta$Lat, sep = "@")
-meta$ID2[!duplicated(meta$ID2)]
-table(tapply(meta$Long, meta$ID, sd) > 0)
-length(unique(paste0(
-    meta$Study_ID,
-    meta$Plot_ID,
-    meta$Long,
-    meta$Lat,
-    sep = "_"
-)))
-
-# check previous coordinates
-# meta0 <- read.csv2("data/dataset_coordinates.csv")
-# meta0$Study_ID <- gsub("SEBIOPAG _BVD", "SEBIOPAG_BVD", meta0$Study_ID)
-# meta0$Study_ID[!meta0$Study_ID %in% meta$Study_ID]
-# meta$Study_ID[!meta$Study_ID %in% meta0$Study_ID]
-
-meta$ID <- paste(meta$Study_ID, meta$Plot_ID, meta$Year, sep = "@")
-meta0$ID <- paste(meta0$Study_ID, meta0$Plot_ID, meta0$Year, sep = "@")
-# plot(meta$Lat, meta0$Lat[match(meta$ID, meta0$ID)])
-boxplot(meta$Lat - meta0$Lat[match(meta$ID, meta0$ID)])
-# plot(meta$Long, meta0$Long[match(meta$ID, meta0$ID)])
-boxplot(meta$Long - meta0$Long[match(meta$ID, meta0$ID)])
-
-pts <- terra::vect("data/fields_FR.gpkg")
-table(pts$Study_ID)
-table(meta$Study_ID)
-# pts$ID <- paste(pts$Study_ID, pts$Site, pts$Year, sep = "@")
-# pts$ID[!pts$ID %in% meta$ID]
-# match(meta$ID, pts$ID)
-
-# check Lepibats coordinates
-
-pts_SEB <- meta[meta$Study_ID == "SEBIOPAG_VcG" & meta$Year == "2023", ]
-plot(coo_vcg$X - pts_SEB$Long[match(coo_vcg$Site, pts_SEB$Plot_ID)])
-boxplot(coo_vcg$X - pts_SEB$Long[match(coo_vcg$Site, pts_SEB$Plot_ID)])
-
-out <- data.frame(
-    "Site" = coo_vcg$Site,
-    "Long_Sylvie" = coo_vcg$X,
-    "Lat_Sylvie" = coo_vcg$Y,
-    "Long_Axelle" = pts_SEB$Long[match(coo_vcg$Site, pts_SEB$Plot_ID)],
-    "Lat_Axelle" = pts_SEB$Lat[match(coo_vcg$Site, pts_SEB$Plot_ID)]
-)
-write.csv(out, "coordinates_SEBIOPAG_VcG.csv", row.names = FALSE)
-
-# pts_m <- pts_SEB[match(coo_vcg$Site, pts_SEB$Plot_ID), ]
-plot(
-    out$Long_Sylvie,
-    out$Lat_Sylvie,
-    col = "black",
-    pch = 16,
-    xlab = "Longitude",
-    ylab = "Latitude"
-)
-points(out$Long_Axelle, out$Lat_Axelle, col = "red", pch = 16)
-legend("topleft", c("Sylvie", "Axelle"), pch = 16, col = c("black", "red"))
-
-
-pts_TLS <- st_read(
-    "data/XYpoint1_transect1_17parcelles_Sebiopag_Toulouse_L93.shp"
-) |>
-    st_transform(crs = 4326)
-pol_TLS <- st_read(
-    "data/17parcelles_Sebiopag_Toulouse_L93_Dynafor.shp"
-) |>
-    st_transform(crs = 4326)
-pol_cts_TLS <- st_centroid(pol_TLS)
-
-library(mapview)
-mapview(terra::vect(pol_TLS)) +
-    mapview(pts_TLS) +
-    mapview(pol_cts_TLS)
