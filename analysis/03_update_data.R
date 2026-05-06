@@ -2,6 +2,7 @@
 # The input file was sent by Axelle on 27/01/2026
 # with update from Sylvie Ladet (Sebiopag_VcG) on 17/12/2026
 # with update from Frederic Fabre (OSCAR) on 03/04/2026
+# with Framework_BVD data from Axelle Tortosa on 05/05/2026
 
 # Creates one files for the shiny app
 
@@ -57,6 +58,16 @@ meta$Lat[sel] <- as.numeric(oscar$latitude[m1])
 meta$Long[sel] <- as.numeric(oscar$longitude[m1])
 meta <- meta[!(meta$Study_ID == "OSCAR" & meta$Plot_ID %in% rm), ]
 
+# 4. add Framework_BVD from Axelle on 05/05/2026
+frame <- read.csv2("data/FRAMEwork_BVD.csv")
+# again x and y have been inverted
+names(frame)[c(2, 4:6)] <- c("Plot_ID", "Lat", "Long", "Crop_species")
+frame <- frame[, names(meta)]
+# table(frame$Year) # only 2021
+frame <- frame[!duplicated(frame), ]
+
+meta <- rbind(meta, frame)
+
 # table(is.na(meta$Lat), meta$Study_ID, useNA = "ifany")
 write.csv(
     meta,
@@ -65,8 +76,8 @@ write.csv(
 )
 
 meta <- read.csv(here::here("data", "coordinates_year_crop.csv"))
-dim(meta) # 2059
-length(unique(paste0(meta$Long, meta$Lat, sep = "_"))) # 592
+dim(meta) # 2029
+length(unique(paste0(meta$Long, meta$Lat, sep = "_"))) # 628
 
 meta$ID <- paste(meta$Study_ID, meta$Plot_ID, sep = "@")
 uID <- sort(unique(meta$ID))
