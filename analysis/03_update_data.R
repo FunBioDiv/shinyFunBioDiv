@@ -64,7 +64,9 @@ frame <- read.csv2("data/FRAMEwork_BVD.csv")
 names(frame)[c(2, 4:6)] <- c("Plot_ID", "Lat", "Long", "Crop_species")
 frame <- frame[, names(meta)]
 # table(frame$Year) # only 2021
-frame <- frame[!duplicated(frame), ]
+# issue of duplicates, especially 236_b2, and 236_c2 with different coordinates
+# because only one year
+frame <- frame[!duplicated(frame[, 1:4]), ]
 
 meta <- rbind(meta, frame)
 
@@ -76,7 +78,7 @@ write.csv(
 )
 
 meta <- read.csv(here::here("data", "coordinates_year_crop.csv"))
-dim(meta) # 2029
+dim(meta) # 2063
 length(unique(paste0(meta$Long, meta$Lat, sep = "_"))) # 628
 
 meta$ID <- paste(meta$Study_ID, meta$Plot_ID, sep = "@")
