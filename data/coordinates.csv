@@ -1,4 +1,74 @@
 "ID","Study_ID","Plot_ID","Lat","Long","Years","N_years","Crops","N_crops"
+"Agrim_2019@10AB","Agrim_2019","10AB",48.0096033376597,-1.38406378021077,"2019",1,"Ble",1
+"Agrim_2019@10AC","Agrim_2019","10AC",48.0054318460251,-1.38574470720477,"2019",1,"Ble",1
+"Agrim_2019@12AB","Agrim_2019","12AB",47.9348650373933,-1.42964324503639,"2019",1,"Ble",1
+"Agrim_2019@12AC","Agrim_2019","12AC",47.9388334180251,-1.42737634868092,"2019",1,"Ble",1
+"Agrim_2019@13AB","Agrim_2019","13AB",47.9576959519736,-1.61008197748287,"2019",1,"Ble",1
+"Agrim_2019@13AC","Agrim_2019","13AC",47.9572126390635,-1.6126016012298,"2019",1,"Ble",1
+"Agrim_2019@14AB","Agrim_2019","14AB",47.9462028508341,-1.60776281920819,"2019",1,"Ble",1
+"Agrim_2019@14AC","Agrim_2019","14AC",47.9445081634459,-1.60579937958292,"2019",1,"Ble",1
+"Agrim_2019@15AB","Agrim_2019","15AB",47.8220407809913,-1.69997754933968,"2019",1,"Ble",1
+"Agrim_2019@15AC","Agrim_2019","15AC",47.8195563560355,-1.70343986890052,"2019",1,"Ble",1
+"Agrim_2019@16AB","Agrim_2019","16AB",47.8170506115558,-1.69000762432139,"2019",1,"Melange cerealier",1
+"Agrim_2019@16AC","Agrim_2019","16AC",47.8082001288185,-1.69416210300416,"2019",1,"Ble",1
+"Agrim_2019@17AB","Agrim_2019","17AB",47.8776789724602,-1.89199612894194,"2019",1,"Ble",1
+"Agrim_2019@17AC","Agrim_2019","17AC",47.8814729034229,-1.89993178532818,"2019",1,"Ble",1
+"Agrim_2019@18AB","Agrim_2019","18AB",47.9281623434642,-1.89982789569241,"2019",1,"Ble",1
+"Agrim_2019@18AC","Agrim_2019","18AC",47.9240160867196,-1.89378274233688,"2019",1,"Ble",1
+"Agrim_2019@19AB","Agrim_2019","19AB",47.9318156272313,-1.90417794817754,"2019",1,"Ble",1
+"Agrim_2019@19AC","Agrim_2019","19AC",47.925098741807,-1.91157795472601,"2019",1,"Ble",1
+"Agrim_2019@1AB","Agrim_2019","1AB",48.1201744219164,-1.37542210193801,"2019",1,"Ble",1
+"Agrim_2019@1AC","Agrim_2019","1AC",48.1211844494509,-1.38178517447225,"2019",1,"Ble",1
+"Agrim_2019@21AB","Agrim_2019","21AB",47.9486430925392,-1.94929501819618,"2019",1,"Ble",1
+"Agrim_2019@21AC","Agrim_2019","21AC",47.9512114609775,-1.95831691366506,"2019",1,"Ble",1
+"Agrim_2019@22AB","Agrim_2019","22AB",47.9874967490538,-1.99227303351372,"2019",1,"Melange cerealier",1
+"Agrim_2019@22AC","Agrim_2019","22AC",47.9902766192988,-1.98076343916692,"2019",1,"Ble",1
+"Agrim_2019@2AB","Agrim_2019","2AB",48.0705492127947,-1.50655882488349,"2019",1,"Ble",1
+"Agrim_2019@2AC","Agrim_2019","2AC",48.0729185856686,-1.50710831747871,"2019",1,"Ble",1
+"Agrim_2019@3AB","Agrim_2019","3AB",48.0489730316159,-1.45511304443267,"2019",1,"Ble",1
+"Agrim_2019@3AC","Agrim_2019","3AC",48.051429254483,-1.44919036054049,"2019",1,"Ble",1
+"Agrim_2019@4AB","Agrim_2019","4AB",48.0648902245207,-1.42190671307296,"2019",1,"Ble",1
+"Agrim_2019@4AC","Agrim_2019","4AC",48.0728861090748,-1.41998031221901,"2019",1,"Ble",1
+"Agrim_2019@5AB","Agrim_2019","5AB",48.0546555719622,-1.42710560603964,"2019",1,"Ble",1
+"Agrim_2019@5AC","Agrim_2019","5AC",48.0538165378467,-1.42601101601716,"2019",1,"Ble",1
+"Agrim_2019@6AB","Agrim_2019","6AB",48.0673633542895,-1.35790412256569,"2019",1,"Ble",1
+"Agrim_2019@6AC","Agrim_2019","6AC",48.0661359253656,-1.36367071307399,"2019",1,"Ble",1
+"Agrim_2019@7AB","Agrim_2019","7AB",48.0676092794905,-1.35343907425536,"2019",1,"Ble",1
+"Agrim_2019@7AC","Agrim_2019","7AC",48.0641278825844,-1.35904607679711,"2019",1,"Ble",1
+"Agrim_2019@8AB","Agrim_2019","8AB",48.0402275396249,-1.41841127520567,"2019",1,"Ble",1
+"Agrim_2019@8AC","Agrim_2019","8AC",48.0405411185515,-1.42776283313158,"2019",1,"Ble",1
+"Agrim_2019@9AB","Agrim_2019","9AB",48.03012826842,-1.43247823236313,"2019",1,"Ble",1
+"Agrim_2019@9AC","Agrim_2019","9AC",48.0224619937202,-1.43780168031975,"2019",1,"Ble",1
+"Agro4st@1_GE_Bio_TZ","Agro4st","1_GE_Bio_TZ",46.24524552,6.303908336,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@10_VD_Konventionell_TZ","Agro4st","10_VD_Konventionell_TZ",46.660673051,6.593757069,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@11_VD_Bio_TZ","Agro4st","11_VD_Bio_TZ",46.655100968,6.632940866,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@12_VD_Bio_BZ(I)","Agro4st","12_VD_Bio_BZ(I)",46.851331525,6.662842051,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@13_VD_Bio_BZ(I)","Agro4st","13_VD_Bio_BZ(I)",46.858756291,6.663721004,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@14_VD_Konventionell_TZ","Agro4st","14_VD_Konventionell_TZ",46.496518374,6.364850571,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@15_VD_Bio_TZ","Agro4st","15_VD_Bio_TZ",46.622804429,6.797593449,"2022; 2023",2,"Silvopastoral",1
+"Agro4st@16_VD_Bio_TZ","Agro4st","16_VD_Bio_TZ",46.550041484,6.438795028,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@17_VD_Bio_TZ","Agro4st","17_VD_Bio_TZ",46.712244003,6.749052741,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@18_VD_Bio_TZ","Agro4st","18_VD_Bio_TZ",46.755894337,6.764384747,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@19_VD_Konventionell_TZ","Agro4st","19_VD_Konventionell_TZ",46.639130419,6.703018514,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@2_NE_Konventionell_BZ(I)","Agro4st","2_NE_Konventionell_BZ(I)",47.076251024,7.052426182,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@20_VD_Konventionell_TZ","Agro4st","20_VD_Konventionell_TZ",46.4042411,6.258066419,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@21_VD_Bio_TZ","Agro4st","21_VD_Bio_TZ",46.598823036,6.500833773,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@22_VD_Konventionell_TZ","Agro4st","22_VD_Konventionell_TZ",46.379743508,6.209580633,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@23_NE_Bio_TZ","Agro4st","23_NE_Bio_TZ",47.054151323,6.911368339,"2022; 2023",2,"Silvopastoral",1
+"Agro4st@24_VD_Bio_TZ","Agro4st","24_VD_Bio_TZ",46.711870795,6.717709944,"2022; 2023",2,"Silvopastoral",1
+"Agro4st@25_VD_Konventionell_TZ","Agro4st","25_VD_Konventionell_TZ",46.605497819,6.785209883,"2022; 2023",2,"Silvopastoral",1
+"Agro4st@26_VD_Bio_TZ","Agro4st","26_VD_Bio_TZ",46.736848526,6.921545858,"2022; 2023",2,"Silvopastoral",1
+"Agro4st@27_VD_Bio_TZ","Agro4st","27_VD_Bio_TZ",46.302049319,6.970567621,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@28_JU_Bio_TZ","Agro4st","28_JU_Bio_TZ",47.389038818,6.943576976,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@29_NE_Bio_BZ(I)","Agro4st","29_NE_Bio_BZ(I)",47.036799644,6.729452157,"2022; 2023",2,"Silvopastoral",1
+"Agro4st@3_NE_Bio_TZ","Agro4st","3_NE_Bio_TZ",46.962272807,6.833312476,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@30_NE_Bio_BZ(II)","Agro4st","30_NE_Bio_BZ(II)",46.905952217,6.64302801,"2022; 2023",2,"Silvopastoral",1
+"Agro4st@4_JU_Bio_TZ","Agro4st","4_JU_Bio_TZ",47.367803532,7.392792007,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@5_JU_Bio_HZ","Agro4st","5_JU_Bio_HZ",47.330169302,7.238089508,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@6_VD_Konventionell_TZ","Agro4st","6_VD_Konventionell_TZ",46.731716271,6.696938837,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@7_VD_Bio_TZ","Agro4st","7_VD_Bio_TZ",46.520981783,6.580921693,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@8_VD_Konventionell_TZ","Agro4st","8_VD_Konventionell_TZ",46.567187474,6.63093929,"2022; 2023",2,"Silvoarabel",1
+"Agro4st@9_VD_Konventionell_TZ","Agro4st","9_VD_Konventionell_TZ",46.740896532,6.551371082,"2022; 2023",2,"Silvoarabel",1
 "BACCHUS_OPERA@01B15","BACCHUS_OPERA","01B15",44.6620527,-0.1267813,"2018; 2019; 2020; 2021; 2022; 2023; 2024",7,"Vitis vinifera",1
 "BACCHUS_OPERA@01C15","BACCHUS_OPERA","01C15",44.6637395,-0.1267108,"2018; 2019; 2020; 2021; 2022; 2023; 2024",7,"Vitis vinifera",1
 "BACCHUS_OPERA@02B15","BACCHUS_OPERA","02B15",44.6514487,-0.132491,"2020; 2021; 2022",3,"Vitis vinifera",1
@@ -446,6 +516,111 @@
 "FRAMEwork_BVD@75_c","FRAMEwork_BVD","75_c",43.7890116,4.9218895,"2021",1,"Malus domestica",1
 "FRAMEwork_BVD@88_b","FRAMEwork_BVD","88_b",43.8131845,4.9072309,"2021",1,"Malus domestica",1
 "FRAMEwork_BVD@88_c","FRAMEwork_BVD","88_c",43.8130674,4.9077092,"2021",1,"Malus domestica",1
+"Herrera_2026@Dijon_D_Agri_PNPP_E_ID066","Herrera_2026","Dijon_D_Agri_PNPP_E_ID066",47.23512,5.12146,"2022",1,"FeveroleH",1
+"Herrera_2026@Dijon_D_Agri_PNPP_Tm_ID067","Herrera_2026","Dijon_D_Agri_PNPP_Tm_ID067",47.23512,5.12146,"2022",1,"FeveroleH",1
+"Herrera_2026@Dijon_D_Agri_Tm4_ID068","Herrera_2026","Dijon_D_Agri_Tm4_ID068",47.233474,5.087518,"2022",1,"FeveroleH",1
+"Herrera_2026@Dijon_D_Agri_Tm5_ID069","Herrera_2026","Dijon_D_Agri_Tm5_ID069",47.254038,5.10891,"2022",1,"FeveroleH",1
+"Herrera_2026@Dijon_D_CASYS_E5_ID070","Herrera_2026","Dijon_D_CASYS_E5_ID070",47.232583,5.105612,"2022",1,"FeveroleH",1
+"Herrera_2026@Dijon_D_CASYS_E6_ID071","Herrera_2026","Dijon_D_CASYS_E6_ID071",47.230361,5.100284,"2022",1,"FeveroleH",1
+"Herrera_2026@Dijon_D_CASYS_Tm1_ID072","Herrera_2026","Dijon_D_CASYS_Tm1_ID072",47.233354,5.104565,"2022",1,"FeveroleH",1
+"Herrera_2026@Grignon_AA1_ID031","Herrera_2026","Grignon_AA1_ID031",48.7774384,1.4668061,"2021",1,"Lentille",1
+"Herrera_2026@Grignon_AA13_ID032","Herrera_2026","Grignon_AA13_ID032",48.763674,1.499729,"2021",1,"Lentille",1
+"Herrera_2026@Grignon_AA16_ID073","Herrera_2026","Grignon_AA16_ID073",48.74374,1.46645,"2022",1,"Lentille",1
+"Herrera_2026@Grignon_AA17_ID074","Herrera_2026","Grignon_AA17_ID074",48.74352,1.46349,"2022",1,"Lentille",1
+"Herrera_2026@Grignon_AA18_ID075","Herrera_2026","Grignon_AA18_ID075",48.74041,1.4856,"2022",1,"Lentille",1
+"Herrera_2026@Grignon_AA3_ID001","Herrera_2026","Grignon_AA3_ID001",48.77284,1.46609,"2020",1,"FeveroleH",1
+"Herrera_2026@Grignon_AA4_ID002","Herrera_2026","Grignon_AA4_ID002",48.772841,1.466091,"2020",1,"Lentille",1
+"Herrera_2026@Grignon_AA9_ID033","Herrera_2026","Grignon_AA9_ID033",48.77661,1.48953,"2021",1,"FeveroleH",1
+"Herrera_2026@Grignon_AAM_ID076","Herrera_2026","Grignon_AAM_ID076",48.74041,1.4856,"2022",1,"Lentille",1
+"Herrera_2026@Grignon_AB9_ID034","Herrera_2026","Grignon_AB9_ID034",48.556384,1.870708,"2021",1,"FeveroleH",1
+"Herrera_2026@Grignon_AD20_ID035","Herrera_2026","Grignon_AD20_ID035",48.97899,1.45902,"2021",1,"Lentille",1
+"Herrera_2026@Grignon_B19_ID036","Herrera_2026","Grignon_B19_ID036",48.842246,2.04802,"2021",1,"Lentille",1
+"Herrera_2026@Grignon_B2b_ID037","Herrera_2026","Grignon_B2b_ID037",48.833526,2.060287,"2021",1,"Lentille",1
+"Herrera_2026@Grignon_D1_ID003","Herrera_2026","Grignon_D1_ID003",48.97475,1.66358,"2020",1,"FeveroleH",1
+"Herrera_2026@Grignon_D16_ID077","Herrera_2026","Grignon_D16_ID077",48.98553,1.65914,"2022",1,"FeveroleP",1
+"Herrera_2026@Grignon_D17_ID078","Herrera_2026","Grignon_D17_ID078",48.98553,1.65692,"2022",1,"FeveroleP",1
+"Herrera_2026@Grignon_D3_ID038","Herrera_2026","Grignon_D3_ID038",48.97619,1.629033,"2021",1,"Lentille",1
+"Herrera_2026@Grignon_I1_ID004","Herrera_2026","Grignon_I1_ID004",48.510716,1.960592,"2020",1,"FeveroleH",1
+"Herrera_2026@Grignon_I10_ID039","Herrera_2026","Grignon_I10_ID039",48.505831,1.942085,"2021",1,"FeveroleP",1
+"Herrera_2026@Grignon_I17_ID040","Herrera_2026","Grignon_I17_ID040",48.4920375,1.948905,"2021",1,"FeveroleH",1
+"Herrera_2026@Grignon_I3_ID079","Herrera_2026","Grignon_I3_ID079",48.50868,1.95793,"2022",1,"FeveroleP",1
+"Herrera_2026@Grignon_J17_ID041","Herrera_2026","Grignon_J17_ID041",48.557796,2.010734,"2021",1,"FeveroleH",1
+"Herrera_2026@Grignon_L1G_ID005","Herrera_2026","Grignon_L1G_ID005",48.9400483,1.6414283,"2020",1,"Lentille",1
+"Herrera_2026@Grignon_N23_ID042","Herrera_2026","Grignon_N23_ID042",48.752293,1.482243,"2021",1,"Lentille",1
+"Herrera_2026@Grignon_N9_ID006","Herrera_2026","Grignon_N9_ID006",48.74622,1.49917,"2020",1,"FeveroleH",1
+"Herrera_2026@Grignon_O18_ID007","Herrera_2026","Grignon_O18_ID007",48.35336,2.08922,"2020",1,"FeveroleP",1
+"Herrera_2026@Grignon_S14_ID080","Herrera_2026","Grignon_S14_ID080",48.72406,1.45768,"2022",1,"Lentille",1
+"Herrera_2026@Grignon_S15_ID081","Herrera_2026","Grignon_S15_ID081",48.72422,1.45895,"2022",1,"Lentille",1
+"Herrera_2026@Grignon_S24_ID082","Herrera_2026","Grignon_S24_ID082",48.70907,1.46072,"2022",1,"Lentille",1
+"Herrera_2026@Grignon_S32_ID083","Herrera_2026","Grignon_S32_ID083",48.72032,1.47498,"2022",1,"Lentille",1
+"Herrera_2026@Grignon_S41_ID008","Herrera_2026","Grignon_S41_ID008",48.74445,1.44703,"2020",1,"FeveroleH",1
+"Herrera_2026@Grignon_S43_ID009","Herrera_2026","Grignon_S43_ID009",48.70501,1.37346,"2020",1,"Lentille",1
+"Herrera_2026@Grignon_U16_ID043","Herrera_2026","Grignon_U16_ID043",48.908768,1.535549,"2021",1,"FeveroleH",1
+"Herrera_2026@Grignon_X10_ID010","Herrera_2026","Grignon_X10_ID010",48.84883,1.96743,"2020",1,"Lentille",1
+"Herrera_2026@Grignon_X4F_ID044","Herrera_2026","Grignon_X4F_ID044",48.846111,1.989101,"2021",1,"FeveroleP",1
+"Herrera_2026@Grignon_X4L_ID045","Herrera_2026","Grignon_X4L_ID045",48.846111,1.989101,"2021",1,"Lentille",1
+"Herrera_2026@Nogent_F1_ID011","Herrera_2026","Nogent_F1_ID011",48.277761,3.379907,"2020",1,"FeveroleH",1
+"Herrera_2026@Nogent_F2_ID012","Herrera_2026","Nogent_F2_ID012",48.302652,3.372677,"2020",1,"FeveroleH",1
+"Herrera_2026@Nogent_F3_ID013","Herrera_2026","Nogent_F3_ID013",48.463859,3.140071,"2020",1,"FeveroleP",1
+"Herrera_2026@Nogent_F4_ID014","Herrera_2026","Nogent_F4_ID014",48.452458,3.122926,"2020",1,"FeveroleH",1
+"Herrera_2026@Nogent_F5_ID015","Herrera_2026","Nogent_F5_ID015",48.293069,2.81855,"2020",1,"FeveroleH",1
+"Herrera_2026@Nogent_L1N_ID016","Herrera_2026","Nogent_L1N_ID016",48.345517,3.512612,"2020",1,"Lentille",1
+"Herrera_2026@Nogent_L2_ID017","Herrera_2026","Nogent_L2_ID017",48.304348,3.483292,"2020",1,"Lentille",1
+"Herrera_2026@Nogent_L3_ID018","Herrera_2026","Nogent_L3_ID018",48.294291,3.459449,"2020",1,"Lentille",1
+"Herrera_2026@Nogent_L4_ID019","Herrera_2026","Nogent_L4_ID019",48.455486,3.099169,"2020",1,"Lentille",1
+"Herrera_2026@Nogent_L5_ID020","Herrera_2026","Nogent_L5_ID020",48.361491,3.141789,"2020",1,"Lentille",1
+"Herrera_2026@Nogent_NF_C1_Agrio_ID084","Herrera_2026","Nogent_NF_C1_Agrio_ID084",48.369579,3.157661,"2022",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF_C1_PNPP_ID085","Herrera_2026","Nogent_NF_C1_PNPP_ID085",48.36123,3.142486,"2022",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF_C1_Tm_ID086","Herrera_2026","Nogent_NF_C1_Tm_ID086",48.371575,3.153502,"2022",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF_C2_PP_ID087","Herrera_2026","Nogent_NF_C2_PP_ID087",48.47713,3.03835,"2022",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF_C2_Tm_al_ID089","Herrera_2026","Nogent_NF_C2_Tm_al_ID089",48.44992,3.09627,"2022",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF_C2_Tm_ID088","Herrera_2026","Nogent_NF_C2_Tm_ID088",48.43878,3.01856,"2022",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF1_ID046","Herrera_2026","Nogent_NF1_ID046",48.447983,3.116737,"2021",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF2_ID047","Herrera_2026","Nogent_NF2_ID047",48.310806,3.475699,"2021",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF3_ID048","Herrera_2026","Nogent_NF3_ID048",48.430411,3.349417,"2021",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF4_ID049","Herrera_2026","Nogent_NF4_ID049",48.279367,3.54021,"2021",1,"FeveroleH",1
+"Herrera_2026@Nogent_NF5_ID050","Herrera_2026","Nogent_NF5_ID050",48.338462,3.420848,"2021",1,"FeveroleP",1
+"Herrera_2026@Nogent_NL_C1_Agrio_ID090","Herrera_2026","Nogent_NL_C1_Agrio_ID090",48.31433,3.44417,"2022",1,"Lentille",1
+"Herrera_2026@Nogent_NL_C1_PP_ID091","Herrera_2026","Nogent_NL_C1_PP_ID091",48.300321,3.503802,"2022",1,"Lentille",1
+"Herrera_2026@Nogent_NL_C1_Tm_ID092","Herrera_2026","Nogent_NL_C1_Tm_ID092",48.35517,3.49572,"2022",1,"Lentille",1
+"Herrera_2026@Nogent_NL_C2_PNPP_ID093","Herrera_2026","Nogent_NL_C2_PNPP_ID093",48.543934,3.916481,"2022",1,"Lentille",1
+"Herrera_2026@Nogent_NL_C2_Tm_ID094","Herrera_2026","Nogent_NL_C2_Tm_ID094",48.534609,3.928481,"2022",1,"Lentille",1
+"Herrera_2026@Nogent_NL1_ID051","Herrera_2026","Nogent_NL1_ID051",48.443404,3.124815,"2021",1,"Lentille",1
+"Herrera_2026@Nogent_NL2_ID052","Herrera_2026","Nogent_NL2_ID052",48.378379,3.42884,"2021",1,"Lentille",1
+"Herrera_2026@Nogent_NL3_ID053","Herrera_2026","Nogent_NL3_ID053",48.299938,3.475914,"2021",1,"Lentille",1
+"Herrera_2026@Nogent_NL4_ID054","Herrera_2026","Nogent_NL4_ID054",48.342651,3.318462,"2021",1,"Lentille",1
+"Herrera_2026@Nogent_NL5_ID055","Herrera_2026","Nogent_NL5_ID055",48.319138,3.342248,"2021",1,"Lentille",1
+"Herrera_2026@Toulouse_C1-E_ID095","Herrera_2026","Toulouse_C1-E_ID095",43.8117889442282,0.773010232297061,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C1-T_ID096","Herrera_2026","Toulouse_C1-T_ID096",43.8109322151707,0.771847124314371,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C2-E_ID097","Herrera_2026","Toulouse_C2-E_ID097",43.7838224876322,0.827404618927604,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C2-T_ID098","Herrera_2026","Toulouse_C2-T_ID098",43.7834119617987,0.824336171395327,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C3-E1_ID099","Herrera_2026","Toulouse_C3-E1_ID099",43.7929550609598,0.790591015221931,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C3-E2_ID100","Herrera_2026","Toulouse_C3-E2_ID100",43.7890768466186,0.789743437163608,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C3-T_ID101","Herrera_2026","Toulouse_C3-T_ID101",43.7905037035212,0.790933540219126,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C4-E_ID102","Herrera_2026","Toulouse_C4-E_ID102",43.7663641565614,0.857220033406711,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C4-T_ID103","Herrera_2026","Toulouse_C4-T_ID103",43.7667670514694,0.858443120628858,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C5-E_ID104","Herrera_2026","Toulouse_C5-E_ID104",43.6694838542408,1.11476032797024,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_C5-T_ID105","Herrera_2026","Toulouse_C5-T_ID105",43.6725841110109,1.11627845812026,"2022",1,"Lentille",1
+"Herrera_2026@Toulouse_P01_ID021","Herrera_2026","Toulouse_P01_ID021",43.733577,0.790423,"2020",1,"FeveroleH",1
+"Herrera_2026@Toulouse_P02_ID022","Herrera_2026","Toulouse_P02_ID022",43.836607,0.915997,"2020",1,"FeveroleH",1
+"Herrera_2026@Toulouse_P03_ID023","Herrera_2026","Toulouse_P03_ID023",43.825806,0.914073,"2020",1,"FeveroleP",1
+"Herrera_2026@Toulouse_P04_ID024","Herrera_2026","Toulouse_P04_ID024",43.710349,0.979238,"2020",1,"Lentille",1
+"Herrera_2026@Toulouse_P05_ID025","Herrera_2026","Toulouse_P05_ID025",43.77089,0.832835,"2020",1,"Lentille",1
+"Herrera_2026@Toulouse_P07_ID026","Herrera_2026","Toulouse_P07_ID026",43.726062,0.776521,"2020",1,"Lentille",1
+"Herrera_2026@Toulouse_P08_ID027","Herrera_2026","Toulouse_P08_ID027",43.783409,0.831631,"2020",1,"Lentille",1
+"Herrera_2026@Toulouse_P09_ID028","Herrera_2026","Toulouse_P09_ID028",43.603344,0.929608,"2020",1,"Lentille",1
+"Herrera_2026@Toulouse_P10_ID029","Herrera_2026","Toulouse_P10_ID029",43.790887,0.791512,"2020",1,"Lentille",1
+"Herrera_2026@Toulouse_P11_ID030","Herrera_2026","Toulouse_P11_ID030",43.605696,0.923506,"2020",1,"Lentille",1
+"Herrera_2026@Toulouse_TF1_ID056","Herrera_2026","Toulouse_TF1_ID056",43.60952,0.929,"2021",1,"FeveroleH",1
+"Herrera_2026@Toulouse_TF2_ID057","Herrera_2026","Toulouse_TF2_ID057",43.842871,0.930924,"2021",1,"FeveroleH",1
+"Herrera_2026@Toulouse_TF3_ID058","Herrera_2026","Toulouse_TF3_ID058",43.732016,0.794404,"2021",1,"FeveroleH",1
+"Herrera_2026@Toulouse_TL1_ID059","Herrera_2026","Toulouse_TL1_ID059",43.725894,0.7755059,"2021",1,"Lentille",1
+"Herrera_2026@Toulouse_TL2_ID060","Herrera_2026","Toulouse_TL2_ID060",43.7998,0.776443,"2021",1,"Lentille",1
+"Herrera_2026@Toulouse_TL3_ID061","Herrera_2026","Toulouse_TL3_ID061",43.668333,1.108056,"2021",1,"Lentille",1
+"Herrera_2026@Toulouse_TL4_ID062","Herrera_2026","Toulouse_TL4_ID062",43.766627,0.864476,"2021",1,"Lentille",1
+"Herrera_2026@Toulouse_TL5_ID063","Herrera_2026","Toulouse_TL5_ID063",43.7219947,0.9172025,"2021",1,"Lentille",1
+"Herrera_2026@Toulouse_TL6_ID064","Herrera_2026","Toulouse_TL6_ID064",43.850564,0.913888,"2021",1,"Lentille",1
+"Herrera_2026@Toulouse_TL7_ID065","Herrera_2026","Toulouse_TL7_ID065",43.778372,0.844971,"2021",1,"Lentille",1
 "lepibats@M01","lepibats","M01",44.52071,-0.06639604,"2021",1,"zea_mays",1
 "lepibats@M02","lepibats","M02",44.4969,-0.04038907,"2021",1,"zea_mays",1
 "lepibats@M03","lepibats","M03",44.56266,-0.20910194,"2021",1,"zea_mays",1
@@ -702,126 +877,307 @@
 "OSCAR@85_2018_00001","OSCAR","85_2018_00001",46.366899986089,-0.90006147893174,"2023",1,"Disease resistant Grapevine",1
 "OSCAR@86_2015_00001","OSCAR","86_2015_00001",46.757955853757,0.4061051379108,"2023",1,"Disease resistant Grapevine",1
 "OSCAR@86_2015_00002","OSCAR","86_2015_00002",46.75799490152,0.40650009318824,"2023",1,"Disease resistant Grapevine",1
-"PestiRed@1.1","PestiRed","1.1",46.77129,6.85706,"2020; 2022; 2023",3,"ble; mas; org",3
-"PestiRed@1.2","PestiRed","1.2",46.77652,6.86064,"2020; 2022; 2023",3,"ble; mas; org",3
-"PestiRed@10.1","PestiRed","10.1",46.68427,6.6595,"2020; 2021; 2023",3,"bet; col; org",3
-"PestiRed@10.2","PestiRed","10.2",46.68841,6.66403,"2020; 2021; 2023",3,"bet; col; org",3
-"PestiRed@11.1","PestiRed","11.1",46.64268,6.72337,"2020; 2022; 2023",3,"ble; mas; org",3
-"PestiRed@11.2","PestiRed","11.2",46.63318,6.71342,"2020; 2022; 2023",3,"ble; mas; org",3
-"PestiRed@12.1","PestiRed","12.1",46.6780981,6.7379997,"2020; 2021; 2022; 2023",4,"ble; col; org; poi",4
-"PestiRed@12.2","PestiRed","12.2",46.671071,6.733623,"2020; 2021; 2022; 2023",4,"ble; col; org; poi",4
-"PestiRed@12.3","PestiRed","12.3",NA,NA,"2022",1,"",1
-"PestiRed@13.1","PestiRed","13.1",NA,NA,"2022",1,"",1
-"PestiRed@13.2","PestiRed","13.2",NA,NA,"2022",1,"",1
-"PestiRed@14.1","PestiRed","14.1",NA,NA,"2022",1,"",1
-"PestiRed@14.2","PestiRed","14.2",NA,NA,"2022",1,"",1
-"PestiRed@15.1","PestiRed","15.1",NA,NA,"2021",1,"",1
-"PestiRed@15.2","PestiRed","15.2",NA,NA,"2021",1,"",1
-"PestiRed@16.1","PestiRed","16.1",NA,NA,"2021",1,"",1
-"PestiRed@16.2","PestiRed","16.2",NA,NA,"2021",1,"",1
-"PestiRed@17.1","PestiRed","17.1",NA,NA,"2021",1,"",1
-"PestiRed@17.2","PestiRed","17.2",NA,NA,"2021",1,"",1
-"PestiRed@19.1","PestiRed","19.1",NA,NA,"2023",1,"",1
-"PestiRed@19.2","PestiRed","19.2",NA,NA,"2023",1,"",1
-"PestiRed@19.3","PestiRed","19.3",NA,NA,"2023",1,"",1
-"PestiRed@2.1","PestiRed","2.1",46.7799,6.77731,"2020; 2021; 2022",3,"col; org; poi",3
-"PestiRed@2.2","PestiRed","2.2",46.77293,6.80649,"2020; 2021; 2022",3,"col; org; poi",3
-"PestiRed@21.1","PestiRed","21.1",NA,NA,"2020",1,"",1
-"PestiRed@21.2","PestiRed","21.2",NA,NA,"2020",1,"",1
-"PestiRed@22.1","PestiRed","22.1",NA,NA,"2020",1,"",1
-"PestiRed@22.2","PestiRed","22.2",NA,NA,"2020",1,"",1
-"PestiRed@25.1","PestiRed","25.1",NA,NA,"2020",1,"",1
-"PestiRed@25.2","PestiRed","25.2",NA,NA,"2020",1,"",1
-"PestiRed@26.1","PestiRed","26.1",NA,NA,"2020",1,"",1
-"PestiRed@26.2","PestiRed","26.2",NA,NA,"2020",1,"",1
-"PestiRed@27.1","PestiRed","27.1",NA,NA,"2021",1,"",1
-"PestiRed@27.2","PestiRed","27.2",NA,NA,"2021",1,"",1
-"PestiRed@3.1","PestiRed","3.1",46.69488,6.7685,"2020; 2021; 2023",3,"col; mas; org",3
-"PestiRed@3.2","PestiRed","3.2",46.69946,6.75697,"2020; 2021; 2023",3,"col; mas; org",3
-"PestiRed@31.1","PestiRed","31.1",NA,NA,"2022",1,"",1
-"PestiRed@31.2","PestiRed","31.2",NA,NA,"2022",1,"",1
-"PestiRed@32.1","PestiRed","32.1",NA,NA,"2022",1,"",1
-"PestiRed@32.2","PestiRed","32.2",NA,NA,"2022",1,"",1
-"PestiRed@33.1","PestiRed","33.1",NA,NA,"2022",1,"",1
-"PestiRed@33.2","PestiRed","33.2",NA,NA,"2022",1,"",1
-"PestiRed@36.1","PestiRed","36.1",NA,NA,"2020",1,"",1
-"PestiRed@36.2","PestiRed","36.2",NA,NA,"2020",1,"",1
-"PestiRed@37.1","PestiRed","37.1",NA,NA,"2020",1,"",1
-"PestiRed@37.2","PestiRed","37.2",NA,NA,"2020",1,"",1
-"PestiRed@38.1","PestiRed","38.1",NA,NA,"2022",1,"",1
-"PestiRed@38.2","PestiRed","38.2",NA,NA,"2022",1,"",1
-"PestiRed@4.1","PestiRed","4.1",46.54035,6.82962,"2020; 2021; 2022; 2023",4,"ble; col; mas; poi",4
-"PestiRed@4.2","PestiRed","4.2",46.5499,6.82547,"2020; 2021; 2022; 2023",4,"ble; col; mas; poi",4
-"PestiRed@5.1","PestiRed","5.1",46.58879,6.86346,"2020; 2021; 2022; 2023",4,"ble; col; org; poi",4
-"PestiRed@5.2","PestiRed","5.2",46.67034,6.84809,"2020; 2021; 2022; 2023",4,"ble; col; org; poi",4
-"PestiRed@56.1","PestiRed","56.1",46.2487711,6.0592594,"2020; 2021; 2022; 2023",4,"ble; col; org; poi",4
-"PestiRed@56.2","PestiRed","56.2",46.2431737,6.0735954,"2020; 2021; 2022; 2023",4,"ble; col; org; poi",4
-"PestiRed@57.1","PestiRed","57.1",46.2425105,6.0799881,"2020; 2023",2,"ble; org",2
-"PestiRed@57.2","PestiRed","57.2",46.2164587,6.0556431,"2020; 2023",2,"ble; org",2
-"PestiRed@58.1","PestiRed","58.1",46.217243,6.0485855,"2021; 2022; 2023",3,"col; org; poi",3
-"PestiRed@58.2","PestiRed","58.2",46.2210173,6.0381859,"2021; 2022; 2023",3,"col; org; poi",3
-"PestiRed@59.1","PestiRed","59.1",46.2170208,6.0133812,"2022; 2023",2,"ble; poi",2
-"PestiRed@59.2","PestiRed","59.2",46.1986506,5.9926678,"2022; 2023",2,"ble; poi",2
-"PestiRed@6.1","PestiRed","6.1",46.66192,6.75701,"2021; 2022; 2023",3,"ble; mas; poi",3
-"PestiRed@6.2","PestiRed","6.2",46.66968,6.75431,"2021; 2022; 2023",3,"ble; mas; poi",3
-"PestiRed@60.1","PestiRed","60.1",46.155004,5.984277,"2021; 2022; 2023",3,"col; org; poi",3
-"PestiRed@60.2","PestiRed","60.2",46.156764,5.985876,"2021; 2022; 2023",3,"col; org; poi",3
-"PestiRed@63.1","PestiRed","63.1",46.2285236,6.2551424,"2020; 2023",2,"ble; org",2
-"PestiRed@63.2","PestiRed","63.2",46.2283383,6.2597079,"2020; 2023",2,"ble; org",2
-"PestiRed@64.1","PestiRed","64.1",46.2237016,6.2496737,"2021; 2022; 2023",3,"ble; col; poi",3
-"PestiRed@64.2","PestiRed","64.2",46.2362269,6.2543938,"2021; 2022; 2023",3,"ble; col; poi",3
-"PestiRed@64.3","PestiRed","64.3",NA,NA,"2022",1,"",1
-"PestiRed@65.1","PestiRed","65.1",46.355343,6.1623766,"2020; 2021; 2023",3,"bet; ble; org",3
-"PestiRed@65.2","PestiRed","65.2",46.3490827,6.1600323,"2020; 2021; 2023",3,"bet; ble; org",3
-"PestiRed@7.1","PestiRed","7.1",46.6095547,6.7738126,"2020; 2021; 2023",3,"col; org; pom",3
-"PestiRed@7.2","PestiRed","7.2",46.610022,6.7808507,"2020; 2021; 2023",3,"col; org; pom",3
-"PestiRed@71.1","PestiRed","71.1",47.107387,7.401978,"2020; 2021; 2022; 2023",4,"ble; col; mag; org",4
-"PestiRed@71.2","PestiRed","71.2",47.106452,7.405197,"2020; 2021; 2022; 2023",4,"ble; col; mag; org",4
-"PestiRed@71.3","PestiRed","71.3",NA,NA,"2021",1,"",1
-"PestiRed@72.1","PestiRed","72.1",47.232511,7.564258,"2020; 2021; 2022; 2023",4,"ble; col; mas; org",4
-"PestiRed@72.2","PestiRed","72.2",47.235416,7.56297,"2020; 2021; 2022; 2023",4,"ble; col; mas; org",4
-"PestiRed@72.3","PestiRed","72.3",NA,NA,"2021",1,"",1
-"PestiRed@73.1","PestiRed","73.1",47.144515,7.515154,"2020; 2021; 2022; 2023",4,"ble; col; mas; org",4
-"PestiRed@73.2","PestiRed","73.2",47.147473,7.506537,"2020; 2021; 2022; 2023",4,"ble; col; mas; org",4
-"PestiRed@73.3","PestiRed","73.3",NA,NA,"2021",1,"",1
-"PestiRed@74.1","PestiRed","74.1",47.137271,7.481291,"2020; 2021; 2022; 2023",4,"ble; col; mas; org",4
-"PestiRed@74.2","PestiRed","74.2",47.137557,7.486258,"2020; 2021; 2022; 2023",4,"ble; col; mas; org",4
-"PestiRed@74.3","PestiRed","74.3",NA,NA,"2021",1,"",1
-"PestiRed@75.1","PestiRed","75.1",47.202522,7.43924,"2020; 2021",2,"mas; org",2
-"PestiRed@75.2","PestiRed","75.2",47.196667,7.461909,"2020; 2021",2,"mas; org",2
-"PestiRed@76.1","PestiRed","76.1",47.180106,7.490927,"2020; 2021; 2023",3,"mas; org; pom",3
-"PestiRed@76.2","PestiRed","76.2",47.177092,7.500184,"2020; 2021; 2023",3,"mas; org; pom",3
-"PestiRed@8.1","PestiRed","8.1",46.6467484,6.7864615,"2020; 2021; 2023",3,"bet; col; org",3
-"PestiRed@8.2","PestiRed","8.2",46.63778,6.77304,"2020; 2021; 2023",3,"bet; col; org",3
-"PestiRed@82.1","PestiRed","82.1",NA,NA,"2020",1,"",1
-"PestiRed@82.2","PestiRed","82.2",NA,NA,"2020",1,"",1
-"PestiRed@83.1","PestiRed","83.1",47.231151,7.514962,"2020; 2021; 2023",3,"ble; epe; mas",3
-"PestiRed@83.2","PestiRed","83.2",47.231709,7.519694,"2020; 2021; 2023",3,"ble; epe; mas",3
-"PestiRed@84.1","PestiRed","84.1",NA,NA,"2020",1,"",1
-"PestiRed@84.2","PestiRed","84.2",NA,NA,"2020",1,"",1
-"PestiRed@85.1","PestiRed","85.1",47.184918,7.484637,"2020; 2021; 2022; 2023",4,"bet; ble; epe; mas",4
-"PestiRed@85.2","PestiRed","85.2",47.182508,7.48146,"2020; 2022; 2023",3,"bet; ble; mas",3
-"PestiRed@85.3","PestiRed","85.3",NA,NA,"2022",1,"",1
-"PestiRed@85.4","PestiRed","85.4",NA,NA,"2022",1,"",1
-"PestiRed@85.5","PestiRed","85.5",NA,NA,"2022",1,"",1
-"PestiRed@85.6","PestiRed","85.6",NA,NA,"2022",1,"",1
-"PestiRed@86.1","PestiRed","86.1",47.218942,7.610441,"2021; 2022; 2023",3,"ble; col; org",3
-"PestiRed@86.2","PestiRed","86.2",47.219043,7.609066,"2021; 2022; 2023",3,"ble; col; org",3
-"PestiRed@86.3","PestiRed","86.3",NA,NA,"2022",1,"",1
-"PestiRed@87.1","PestiRed","87.1",47.223935,7.630399,"2021; 2022; 2023",3,"ble; col; org",3
-"PestiRed@87.2","PestiRed","87.2",47.216342,7.627444,"2021; 2022; 2023",3,"ble; col; org",3
-"PestiRed@87.3","PestiRed","87.3",NA,NA,"2022",1,"",1
-"PestiRed@88.1","PestiRed","88.1",47.215813,7.626872,"2021; 2022; 2023",3,"ble; col; org",3
-"PestiRed@88.2","PestiRed","88.2",47.21655,7.60857,"2021; 2022; 2023",3,"ble; col; org",3
-"PestiRed@88.3","PestiRed","88.3",NA,NA,"2022",1,"",1
-"PestiRed@89.1","PestiRed","89.1",47.169914,7.534688,"2021; 2022; 2023",3,"ble; col; org",3
-"PestiRed@89.2","PestiRed","89.2",47.180872,7.531085,"2021; 2022; 2023",3,"ble; col; org",3
-"PestiRed@89.3","PestiRed","89.3",NA,NA,"2022",1,"",1
-"PestiRed@9.1","PestiRed","9.1",46.6684,6.64595,"2020; 2021; 2022; 2023",4,"ble; col; org; poi",4
-"PestiRed@9.2","PestiRed","9.2",46.67011,6.64707,"2020; 2021; 2022; 2023",4,"ble; col; org; poi",4
-"PestiRed@99.1","PestiRed","99.1",NA,NA,"2021",1,"",1
-"PestiRed@99.2","PestiRed","99.2",NA,NA,"2021",1,"",1
-"PestiRed@99.3","PestiRed","99.3",NA,NA,"2021",1,"",1
+"PestiRed@1.1","PestiRed","1.1",46.77129,6.85706,"2020; 2022; 2023; 2024; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@1.2","PestiRed","1.2",46.77652,6.86064,"2020; 2022; 2023; 2024; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@10.1","PestiRed","10.1",46.68427,6.6595,"2020; 2021; 2023; 2024; 2025",5,"bet; ble; col; mas; org",5
+"PestiRed@10.2","PestiRed","10.2",46.68841,6.66403,"2020; 2021; 2023; 2024; 2025",5,"bet; ble; col; mas; org",5
+"PestiRed@11.1","PestiRed","11.1",46.64268,6.72337,"2020; 2022; 2023; 2024; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@11.2","PestiRed","11.2",46.63318,6.71342,"2020; 2022; 2023; 2024; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@12.1","PestiRed","12.1",46.6780981,6.7379997,"2020; 2021; 2022; 2023; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@12.2","PestiRed","12.2",46.671071,6.733623,"2020; 2021; 2022; 2023; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@2.1","PestiRed","2.1",46.7799,6.77731,"2020; 2021; 2022; 2024; 2025",5,"bet; ble; col; org; poi",5
+"PestiRed@2.2","PestiRed","2.2",46.77293,6.80649,"2020; 2021; 2022; 2024; 2025",5,"bet; ble; col; org; poi",5
+"PestiRed@3.1","PestiRed","3.1",46.69488,6.7685,"2020; 2021; 2023; 2024; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@3.2","PestiRed","3.2",46.69946,6.75697,"2020; 2021; 2023; 2024; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@4.1","PestiRed","4.1",46.54035,6.82962,"2020; 2021; 2022; 2023; 2024",5,"ble; col; mas; org; poi",5
+"PestiRed@4.2","PestiRed","4.2",46.5499,6.82547,"2020; 2021; 2022; 2023; 2024",5,"ble; col; mas; org; poi",5
+"PestiRed@5.1","PestiRed","5.1",46.58879,6.86346,"2020; 2021; 2022; 2023; 2025",5,"bet; ble; col; org; poi",5
+"PestiRed@5.2","PestiRed","5.2",46.67034,6.84809,"2020; 2021; 2022; 2023; 2025",5,"bet; ble; col; org; poi",5
+"PestiRed@56.1","PestiRed","56.1",46.2487711,6.0592594,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@56.2","PestiRed","56.2",46.2431737,6.0735954,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@57.1","PestiRed","57.1",46.2425105,6.0799881,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@57.2","PestiRed","57.2",46.2164587,6.0556431,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@58.1","PestiRed","58.1",46.217243,6.0485855,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; org; poi; tou",6
+"PestiRed@58.2","PestiRed","58.2",46.2210173,6.0381859,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; org; poi; tou",6
+"PestiRed@59.1","PestiRed","59.1",46.2170208,6.0133812,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@59.2","PestiRed","59.2",46.1986506,5.9926678,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@6.1","PestiRed","6.1",46.66192,6.75701,"2021; 2022; 2023; 2024; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@6.2","PestiRed","6.2",46.66968,6.75431,"2021; 2022; 2023; 2024; 2025",5,"ble; col; mas; org; poi",5
+"PestiRed@60.1","PestiRed","60.1",46.155004,5.984277,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@60.2","PestiRed","60.2",46.156764,5.985876,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@63.1","PestiRed","63.1",46.2285236,6.2551424,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@63.2","PestiRed","63.2",46.2283383,6.2597079,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; org; poi; soj; tou",6
+"PestiRed@64.1","PestiRed","64.1",46.2237016,6.2496737,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; org; poi; tou",6
+"PestiRed@64.2","PestiRed","64.2",46.2362269,6.2543938,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; org; poi; tou",6
+"PestiRed@65.1","PestiRed","65.1",46.355343,6.1623766,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; org; poi; tou",6
+"PestiRed@65.2","PestiRed","65.2",46.3490827,6.1600323,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; org; poi; tou",6
+"PestiRed@7.1","PestiRed","7.1",46.6095547,6.7738126,"2020; 2021; 2023; 2024; 2025",5,"ble; col; org; poi; pom",5
+"PestiRed@7.2","PestiRed","7.2",46.610022,6.7808507,"2020; 2021; 2023; 2024; 2025",5,"ble; col; org; poi; pom",5
+"PestiRed@71.1","PestiRed","71.1",47.107387,7.401978,"2020; 2021; 2022; 2023; 2024",5,"ble; col; epe; mag; org",5
+"PestiRed@71.2","PestiRed","71.2",47.106452,7.405197,"2020; 2021; 2022; 2023; 2024",5,"ble; col; epe; mag; org",5
+"PestiRed@72.1","PestiRed","72.1",47.232511,7.564258,"2020; 2021; 2022; 2023; 2024",5,"ble; col; epe; mas; org",5
+"PestiRed@72.2","PestiRed","72.2",47.235416,7.56297,"2020; 2021; 2022; 2023; 2024",5,"ble; col; epe; mas; org",5
+"PestiRed@73.1","PestiRed","73.1",47.144515,7.515154,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; epe; mas; org",6
+"PestiRed@73.2","PestiRed","73.2",47.147473,7.506537,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; epe; mas; org",6
+"PestiRed@74.1","PestiRed","74.1",47.137271,7.481291,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@74.2","PestiRed","74.2",47.137557,7.486258,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@75.1","PestiRed","75.1",47.202522,7.43924,"2020; 2021; 2022; 2024; 2025",5,"ble; col; epe; mas; org",5
+"PestiRed@75.2","PestiRed","75.2",47.196667,7.461909,"2020; 2021; 2022; 2024; 2025",5,"ble; col; epe; mas; org",5
+"PestiRed@76.1","PestiRed","76.1",47.180106,7.490927,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@76.2","PestiRed","76.2",47.177092,7.500184,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@8.1","PestiRed","8.1",46.6467484,6.7864615,"2020; 2021; 2023; 2024; 2025",5,"bet; ble; col; org; poi",5
+"PestiRed@8.2","PestiRed","8.2",46.63778,6.77304,"2020; 2021; 2023; 2024; 2025",5,"bet; ble; col; org; poi",5
+"PestiRed@83.1","PestiRed","83.1",47.231151,7.514962,"2020; 2021; 2023; 2024; 2025",5,"ble; col; epe; mas; org",5
+"PestiRed@83.2","PestiRed","83.2",47.231709,7.519694,"2020; 2021; 2023; 2024; 2025",5,"ble; col; epe; mas; org",5
+"PestiRed@85.1","PestiRed","85.1",47.184918,7.484637,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; epe; mas; org",6
+"PestiRed@85.2","PestiRed","85.2",47.182508,7.48146,"2020; 2021; 2022; 2023; 2024; 2025",6,"bet; ble; col; epe; mas; org",6
+"PestiRed@86.1","PestiRed","86.1",47.218942,7.610441,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@86.2","PestiRed","86.2",47.219043,7.609066,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@87.1","PestiRed","87.1",47.223935,7.630399,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@87.2","PestiRed","87.2",47.216342,7.627444,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@88.1","PestiRed","88.1",47.215813,7.626872,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@88.2","PestiRed","88.2",47.21655,7.60857,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@89.1","PestiRed","89.1",47.169914,7.534688,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@89.2","PestiRed","89.2",47.180872,7.531085,"2020; 2021; 2022; 2023; 2024; 2025",6,"ble; col; epe; mas; org; pom",6
+"PestiRed@9.1","PestiRed","9.1",46.6684,6.64595,"2020; 2021; 2022; 2023; 2025",5,"bet; ble; col; org; poi",5
+"PestiRed@9.2","PestiRed","9.2",46.67011,6.64707,"2020; 2021; 2022; 2023; 2025",5,"bet; ble; col; org; poi",5
+"Pigot_2023@Bailly1_A","Pigot_2023","Bailly1_A",48.841317,2.043014,"2021; 2022",2,"",0
+"Pigot_2023@Bailly1_B","Pigot_2023","Bailly1_B",48.841713,2.042928,"2021; 2022",2,"",0
+"Pigot_2023@Bailly1_C","Pigot_2023","Bailly1_C",48.842116,2.042981,"2021; 2022",2,"",0
+"Pigot_2023@Bailly17_A","Pigot_2023","Bailly17_A",48.844879,2.051003,"2022",1,"",0
+"Pigot_2023@Bailly17_B","Pigot_2023","Bailly17_B",48.844574,2.051038,"2022",1,"",0
+"Pigot_2023@Bailly17_C","Pigot_2023","Bailly17_C",48.844238,2.051189,"2022",1,"",0
+"Pigot_2023@Blandainville19_A","Pigot_2023","Blandainville19_A",48.313533,1.280728,"2021",1,"",0
+"Pigot_2023@Blandainville19_B","Pigot_2023","Blandainville19_B",48.313463,1.280116,"2021",1,"",0
+"Pigot_2023@Blandainville19_C","Pigot_2023","Blandainville19_C",48.313406,1.279388,"2021",1,"",0
+"Pigot_2023@Blandainville2_A","Pigot_2023","Blandainville2_A",48.295546,1.343798,"2021; 2022",2,"",0
+"Pigot_2023@Blandainville2_B","Pigot_2023","Blandainville2_B",48.295553,1.343206,"2021; 2022",2,"",0
+"Pigot_2023@Blandainville2_C","Pigot_2023","Blandainville2_C",48.295671,1.35254,"2021; 2022",2,"",0
+"Pigot_2023@Blandainville5_A","Pigot_2023","Blandainville5_A",48.312092,1.357452,"2022",1,"",0
+"Pigot_2023@Blandainville5_B","Pigot_2023","Blandainville5_B",48.311812,1.356969,"2022",1,"",0
+"Pigot_2023@Blandainville5_C","Pigot_2023","Blandainville5_C",48.311534,1.356486,"2022",1,"",0
+"Pigot_2023@Buchelay20_A","Pigot_2023","Buchelay20_A",48.981985,1.66787,"2022",1,"",0
+"Pigot_2023@Buchelay20_B","Pigot_2023","Buchelay20_B",48.981922,1.667663,"2022",1,"",0
+"Pigot_2023@Buchelay20_C","Pigot_2023","Buchelay20_C",48.981827,1.66742,"2022",1,"",0
+"Pigot_2023@Buchelay24_A","Pigot_2023","Buchelay24_A",48.970703,1.64363,"2021",1,"",0
+"Pigot_2023@Buchelay24_B","Pigot_2023","Buchelay24_B",48.970673,1.64431,"2021",1,"",0
+"Pigot_2023@Buchelay24_C","Pigot_2023","Buchelay24_C",48.97067,1.644842,"2021",1,"",0
+"Pigot_2023@Buchelay6A_A","Pigot_2023","Buchelay6A_A",48.971427,1.631419,"2021",1,"",0
+"Pigot_2023@Buchelay6A_B","Pigot_2023","Buchelay6A_B",48.971569,1.631987,"2021",1,"",0
+"Pigot_2023@Buchelay6A_C","Pigot_2023","Buchelay6A_C",48.971807,1.632454,"2021",1,"",0
+"Pigot_2023@Buchelay6B_A","Pigot_2023","Buchelay6B_A",48.970723,1.631092,"2021; 2022",2,"",0
+"Pigot_2023@Buchelay6B_B","Pigot_2023","Buchelay6B_B",48.970395,1.631456,"2021; 2022",2,"",0
+"Pigot_2023@Buchelay6B_C","Pigot_2023","Buchelay6B_C",48.970073,1.631764,"2021; 2022",2,"",0
+"Pigot_2023@Chanu1_A","Pigot_2023","Chanu1_A",48.955175,1.455642,"2021; 2022",2,"",0
+"Pigot_2023@Chanu1_B","Pigot_2023","Chanu1_B",48.955497,1.455691,"2021; 2022",2,"",0
+"Pigot_2023@Chanu1_C","Pigot_2023","Chanu1_C",48.955921,1.455667,"2021; 2022",2,"",0
+"Pigot_2023@Chanu13_A","Pigot_2023","Chanu13_A",48.959508,1.468084,"2021",1,"",0
+"Pigot_2023@Chanu13_B","Pigot_2023","Chanu13_B",48.959481,1.467396,"2021",1,"",0
+"Pigot_2023@Chanu13_C","Pigot_2023","Chanu13_C",48.959751,1.467095,"2021",1,"",0
+"Pigot_2023@Chanu8_A","Pigot_2023","Chanu8_A",48.957978,1.47351,"2022",1,"",0
+"Pigot_2023@Chanu8_B","Pigot_2023","Chanu8_B",48.957693,1.473667,"2022",1,"",0
+"Pigot_2023@Chanu8_C","Pigot_2023","Chanu8_C",48.957178,1.473985,"2022",1,"",0
+"Pigot_2023@Chatelliers1_A","Pigot_2023","Chatelliers1_A",48.337767,1.206146,"2021",1,"",0
+"Pigot_2023@Chatelliers1_B","Pigot_2023","Chatelliers1_B",48.33823,1.205695,"2021",1,"",0
+"Pigot_2023@Chatelliers1_C","Pigot_2023","Chatelliers1_C",48.338341,1.205682,"2021",1,"",0
+"Pigot_2023@Chatelliers13A_A","Pigot_2023","Chatelliers13A_A",48.341765,1.228476,"2021; 2022",2,"",0
+"Pigot_2023@Chatelliers13A_B","Pigot_2023","Chatelliers13A_B",48.342026,1.229075,"2021; 2022",2,"",0
+"Pigot_2023@Chatelliers13A_C","Pigot_2023","Chatelliers13A_C",48.342246,1.229603,"2021; 2022",2,"",0
+"Pigot_2023@Chatelliers13B_A","Pigot_2023","Chatelliers13B_A",48.341048,1.228493,"2021",1,"",0
+"Pigot_2023@Chatelliers13B_B","Pigot_2023","Chatelliers13B_B",48.340762,1.228181,"2021",1,"",0
+"Pigot_2023@Chatelliers13B_C","Pigot_2023","Chatelliers13B_C",48.340477,1.228436,"2021",1,"",0
+"Pigot_2023@Chatelliers6_A","Pigot_2023","Chatelliers6_A",48.335539,1.209597,"2022",1,"",0
+"Pigot_2023@Chatelliers6_B","Pigot_2023","Chatelliers6_B",48.335266,1.210128,"2022",1,"",0
+"Pigot_2023@Chatelliers6_C","Pigot_2023","Chatelliers6_C",48.334991,1.210473,"2022",1,"",0
+"Pigot_2023@ChatelliersB4_A","Pigot_2023","ChatelliersB4_A",48.346132,1.2025,"2022",1,"",0
+"Pigot_2023@ChatelliersB4_B","Pigot_2023","ChatelliersB4_B",48.346405,1.202369,"2022",1,"",0
+"Pigot_2023@ChatelliersB4_C","Pigot_2023","ChatelliersB4_C",48.346675,1.201933,"2022",1,"",0
+"Pigot_2023@ChatelliersB5_A","Pigot_2023","ChatelliersB5_A",48.3524,1.210873,"2021; 2022",2,"",0
+"Pigot_2023@ChatelliersB5_B","Pigot_2023","ChatelliersB5_B",48.352311,1.210336,"2021; 2022",2,"",0
+"Pigot_2023@ChatelliersB5_C","Pigot_2023","ChatelliersB5_C",48.2131666,1.209695,"2021; 2022",2,"",0
+"Pigot_2023@Chavenay1A_A","Pigot_2023","Chavenay1A_A",48.838088,1.995677,"2021",1,"",0
+"Pigot_2023@Chavenay1A_B","Pigot_2023","Chavenay1A_B",48.838523,1.99565,"2021",1,"",0
+"Pigot_2023@Chavenay1A_C","Pigot_2023","Chavenay1A_C",48.839345,1.995878,"2021",1,"",0
+"Pigot_2023@Chavenay1B_A","Pigot_2023","Chavenay1B_A",48.837952,1.996057,"2022",1,"",0
+"Pigot_2023@Chavenay1B_B","Pigot_2023","Chavenay1B_B",48.838165,1.996007,"2022",1,"",0
+"Pigot_2023@Chavenay1B_C","Pigot_2023","Chavenay1B_C",48.838654,1.99601,"2022",1,"",0
+"Pigot_2023@Chavenay3A_A","Pigot_2023","Chavenay3A_A",48.843323,2.002704,"2022",1,"",0
+"Pigot_2023@Chavenay3A_B","Pigot_2023","Chavenay3A_B",48.84317,2.002247,"2022",1,"",0
+"Pigot_2023@Chavenay3A_C","Pigot_2023","Chavenay3A_C",48.842987,2.001748,"2022",1,"",0
+"Pigot_2023@Corbreuse1_A","Pigot_2023","Corbreuse1_A",48.508964,1.960387,"2021",1,"",0
+"Pigot_2023@Corbreuse1_B","Pigot_2023","Corbreuse1_B",48.508633,1.960603,"2021",1,"",0
+"Pigot_2023@Corbreuse1_C","Pigot_2023","Corbreuse1_C",48.50829,1.960733,"2021",1,"",0
+"Pigot_2023@Corbreuse14_A","Pigot_2023","Corbreuse14_A",48.494298,1.940389,"2021; 2022",2,"",0
+"Pigot_2023@Corbreuse14_B","Pigot_2023","Corbreuse14_B",48.493958,1.940636,"2021; 2022",2,"",0
+"Pigot_2023@Corbreuse14_C","Pigot_2023","Corbreuse14_C",48.493602,1.940694,"2021; 2022",2,"",0
+"Pigot_2023@Corbreuse15_A","Pigot_2023","Corbreuse15_A",48.493561,1.938978,"2022",1,"",0
+"Pigot_2023@Corbreuse15_B","Pigot_2023","Corbreuse15_B",48.493256,1.939347,"2022",1,"",0
+"Pigot_2023@Corbreuse15_C","Pigot_2023","Corbreuse15_C",48.492981,1.939624,"2022",1,"",0
+"Pigot_2023@Dourdan5_A","Pigot_2023","Dourdan5_A",48.547356,1.9997,"2021",1,"",0
+"Pigot_2023@Dourdan5_B","Pigot_2023","Dourdan5_B",48.546992,1.99981,"2021",1,"",0
+"Pigot_2023@Dourdan5_C","Pigot_2023","Dourdan5_C",48.547022,1.999663,"2021",1,"",0
+"Pigot_2023@Favrieux1_A","Pigot_2023","Favrieux1_A",48.9405316,1.641243,"2021",1,"",0
+"Pigot_2023@Favrieux1_B","Pigot_2023","Favrieux1_B",48.9408316,1.6408616,"2021",1,"",0
+"Pigot_2023@Favrieux1_C","Pigot_2023","Favrieux1_C",48.941325,1.640226,"2021",1,"",0
+"Pigot_2023@Gas1B_A","Pigot_2023","Gas1B_A",48.560456,1.662991,"2021; 2022",2,"",0
+"Pigot_2023@Gas1B_B","Pigot_2023","Gas1B_B",48.560123,1.66299,"2021; 2022",2,"",0
+"Pigot_2023@Gas1B_C","Pigot_2023","Gas1B_C",48.559756,1.663015,"2021; 2022",2,"",0
+"Pigot_2023@Gas4_A","Pigot_2023","Gas4_A",48.554776,1.656302,"2021",1,"",0
+"Pigot_2023@Gas4_B","Pigot_2023","Gas4_B",48.554722,1.656841,"2021",1,"",0
+"Pigot_2023@Gas4_C","Pigot_2023","Gas4_C",48.554726,1.657194,"2021",1,"",0
+"Pigot_2023@Gas5A_A","Pigot_2023","Gas5A_A",48.558871,1.65272,"2022",1,"",0
+"Pigot_2023@Gas5A_B","Pigot_2023","Gas5A_B",48.558706,1.653299,"2022",1,"",0
+"Pigot_2023@Gas5A_C","Pigot_2023","Gas5A_C",48.558565,1.65395,"2022",1,"",0
+"Pigot_2023@Gas9_A","Pigot_2023","Gas9_A",48.58007,1.660257,"2021; 2022",2,"",0
+"Pigot_2023@Gas9_B","Pigot_2023","Gas9_B",48.580448,1.660639,"2021; 2022",2,"",0
+"Pigot_2023@Gas9_C","Pigot_2023","Gas9_C",48.580266,1.660634,"2021; 2022",2,"",0
+"Pigot_2023@Germainville16_A","Pigot_2023","Germainville16_A",48.739046,1.512873,"2022",1,"",0
+"Pigot_2023@Germainville16_B","Pigot_2023","Germainville16_B",48.738831,1.512331,"2022",1,"",0
+"Pigot_2023@Germainville16_C","Pigot_2023","Germainville16_C",48.738647,1.511787,"2022",1,"",0
+"Pigot_2023@Germainville21_A","Pigot_2023","Germainville21_A",48.747992,1.46824,"2021",1,"",0
+"Pigot_2023@Germainville21_B","Pigot_2023","Germainville21_B",48.74805,1.468873,"2021",1,"",0
+"Pigot_2023@Germainville21_C","Pigot_2023","Germainville21_C",48.747953,1.469505,"2021",1,"",0
+"Pigot_2023@Germainville23_A","Pigot_2023","Germainville23_A",48.754518,1.481279,"2022",1,"",0
+"Pigot_2023@Germainville23_B","Pigot_2023","Germainville23_B",48.754028,1.480752,"2022",1,"",0
+"Pigot_2023@Germainville23_C","Pigot_2023","Germainville23_C",48.753693,1.48044,"2022",1,"",0
+"Pigot_2023@Germainville24-Bazainville_A","Pigot_2023","Germainville24-Bazainville_A",48.822517,1.66975,"2021; 2022",2,"",0
+"Pigot_2023@Germainville24-Bazainville_B","Pigot_2023","Germainville24-Bazainville_B",48.822839,1.670066,"2021; 2022",2,"",0
+"Pigot_2023@Germainville24-Bazainville_C","Pigot_2023","Germainville24-Bazainville_C",48.82307,1.670512,"2021; 2022",2,"",0
+"Pigot_2023@Germainville25-Bazainville_A","Pigot_2023","Germainville25-Bazainville_A",48.821293,1.676093,"2021",1,"",0
+"Pigot_2023@Germainville25-Bazainville_B","Pigot_2023","Germainville25-Bazainville_B",48.821401,1.676568,"2021",1,"",0
+"Pigot_2023@Germainville25-Bazainville_C","Pigot_2023","Germainville25-Bazainville_C",48.821672,1.677356,"2021",1,"",0
+"Pigot_2023@Guillerval16A_A","Pigot_2023","Guillerval16A_A",48.347839,2.08969,"2022",1,"",0
+"Pigot_2023@Guillerval16A_B","Pigot_2023","Guillerval16A_B",48.348022,2.090166,"2022",1,"",0
+"Pigot_2023@Guillerval16A_C","Pigot_2023","Guillerval16A_C",48.348206,2.090594,"2022",1,"",0
+"Pigot_2023@Guillerval18_A","Pigot_2023","Guillerval18_A",48.353202,2.090912,"2021",1,"",0
+"Pigot_2023@Guillerval18_B","Pigot_2023","Guillerval18_B",48.353347,2.090402,"2021",1,"",0
+"Pigot_2023@Guillerval18_C","Pigot_2023","Guillerval18_C",48.353492,2.091747,"2021",1,"",0
+"Pigot_2023@Janvry10A_A","Pigot_2023","Janvry10A_A",48.65836,2.137296,"2021",1,"",0
+"Pigot_2023@Janvry10A_B","Pigot_2023","Janvry10A_B",48.658327,2.136967,"2021",1,"",0
+"Pigot_2023@Janvry10A_C","Pigot_2023","Janvry10A_C",48.658087,2.136603,"2021",1,"",0
+"Pigot_2023@Janvry10B_A","Pigot_2023","Janvry10B_A",48.659347,2.139406,"2021; 2022",2,"",0
+"Pigot_2023@Janvry10B_B","Pigot_2023","Janvry10B_B",48.65882,2.139421,"2021; 2022",2,"",0
+"Pigot_2023@Janvry10B_C","Pigot_2023","Janvry10B_C",48.658229,2.139484,"2021; 2022",2,"",0
+"Pigot_2023@Janvry17_A","Pigot_2023","Janvry17_A",48.659607,2.138982,"2022",1,"",0
+"Pigot_2023@Janvry17_B","Pigot_2023","Janvry17_B",48.659546,2.13838,"2022",1,"",0
+"Pigot_2023@Janvry17_C","Pigot_2023","Janvry17_C",48.659485,2.137855,"2022",1,"",0
+"Pigot_2023@Janvry19_A","Pigot_2023","Janvry19_A",48.639343,2.132768,"2022",1,"",0
+"Pigot_2023@Janvry19_B","Pigot_2023","Janvry19_B",48.639374,2.133309,"2022",1,"",0
+"Pigot_2023@Janvry19_C","Pigot_2023","Janvry19_C",48.639465,2.133833,"2022",1,"",0
+"Pigot_2023@Janvry4_A","Pigot_2023","Janvry4_A",48.641579,2.123303,"2021",1,"",0
+"Pigot_2023@Janvry4_B","Pigot_2023","Janvry4_B",48.641703,2.123115,"2021",1,"",0
+"Pigot_2023@Janvry4_C","Pigot_2023","Janvry4_C",48.642217,2.123021,"2021",1,"",0
+"Pigot_2023@Janvry5_A","Pigot_2023","Janvry5_A",48.641522,2.124786,"2021",1,"",0
+"Pigot_2023@Janvry5_B","Pigot_2023","Janvry5_B",48.641949,2.125051,"2021",1,"",0
+"Pigot_2023@Janvry5_C","Pigot_2023","Janvry5_C",48.642275,2.125526,"2021",1,"",0
+"Pigot_2023@Janvry8_A","Pigot_2023","Janvry8_A",48.657281,2.142062,"2021",1,"",0
+"Pigot_2023@Janvry8_B","Pigot_2023","Janvry8_B",48.657043,2.142074,"2021",1,"",0
+"Pigot_2023@Janvry8_C","Pigot_2023","Janvry8_C",48.656581,2.142002,"2021",1,"",0
+"Pigot_2023@Levesville13_A","Pigot_2023","Levesville13_A",48.486118,1.436772,"2021; 2022",2,"",0
+"Pigot_2023@Levesville13_B","Pigot_2023","Levesville13_B",48.485713,1.43683,"2021; 2022",2,"",0
+"Pigot_2023@Levesville13_C","Pigot_2023","Levesville13_C",48.4852,1.436813,"2021; 2022",2,"",0
+"Pigot_2023@Levesville14_A","Pigot_2023","Levesville14_A",48.487389,1.434241,"2022",1,"",0
+"Pigot_2023@Levesville14_B","Pigot_2023","Levesville14_B",48.487091,1.434705,"2022",1,"",0
+"Pigot_2023@Levesville14_C","Pigot_2023","Levesville14_C",48.486725,1.434734,"2022",1,"",0
+"Pigot_2023@Levesville2_A","Pigot_2023","Levesville2_A",48.49537,1.42871,"2021",1,"",0
+"Pigot_2023@Levesville2_B","Pigot_2023","Levesville2_B",48.495862,1.428861,"2021",1,"",0
+"Pigot_2023@Levesville2_C","Pigot_2023","Levesville2_C",48.496248,1.429118,"2021",1,"",0
+"Pigot_2023@Levesville4_A","Pigot_2023","Levesville4_A",48.496403,1.43733,"2021; 2022",2,"",0
+"Pigot_2023@Levesville4_B","Pigot_2023","Levesville4_B",48.49664,1.436752,"2021; 2022",2,"",0
+"Pigot_2023@Levesville4_C","Pigot_2023","Levesville4_C",48.496798,1.436045,"2021; 2022",2,"",0
+"Pigot_2023@Levesville5-6_A","Pigot_2023","Levesville5-6_A",48.497357,1.448211,"2022",1,"",0
+"Pigot_2023@Levesville5-6_B","Pigot_2023","Levesville5-6_B",48.497437,1.448902,"2022",1,"",0
+"Pigot_2023@Levesville5-6_C","Pigot_2023","Levesville5-6_C",48.497314,1.44941,"2022",1,"",0
+"Pigot_2023@Maisse3_A","Pigot_2023","Maisse3_A",48.400634,2.337511,"2021",1,"",0
+"Pigot_2023@Maisse3_B","Pigot_2023","Maisse3_B",48.401208,2.337696,"2021",1,"",0
+"Pigot_2023@Maisse3_C","Pigot_2023","Maisse3_C",48.401586,2.337931,"2021",1,"",0
+"Pigot_2023@Maisse4_A","Pigot_2023","Maisse4_A",48.399581,2.33985,"2021",1,"",0
+"Pigot_2023@Maisse4_B","Pigot_2023","Maisse4_B",48.399911,2.339977,"2021",1,"",0
+"Pigot_2023@Maisse4_C","Pigot_2023","Maisse4_C",48.40025,2.340047,"2021",1,"",0
+"Pigot_2023@Mespuits27_A","Pigot_2023","Mespuits27_A",48.368319,2.261445,"2021",1,"",0
+"Pigot_2023@Mespuits27_B","Pigot_2023","Mespuits27_B",48.368232,2.261339,"2021",1,"",0
+"Pigot_2023@Mespuits27_C","Pigot_2023","Mespuits27_C",48.36794,2.260545,"2021",1,"",0
+"Pigot_2023@Mezieres15_A","Pigot_2023","Mezieres15_A",48.723117,1.45941,"2021",1,"",0
+"Pigot_2023@Mezieres15_B","Pigot_2023","Mezieres15_B",48.723496,1.459422,"2021",1,"",0
+"Pigot_2023@Mezieres15_C","Pigot_2023","Mezieres15_C",48.723859,1.459467,"2021",1,"",0
+"Pigot_2023@Mezieres2-11_A","Pigot_2023","Mezieres2-11_A",48.722204,1.468178,"2021; 2022",2,"",0
+"Pigot_2023@Mezieres2-11_B","Pigot_2023","Mezieres2-11_B",48.722446,1.467746,"2021; 2022",2,"",0
+"Pigot_2023@Mezieres2-11_C","Pigot_2023","Mezieres2-11_C",48.722829,1.467364,"2021; 2022",2,"",0
+"Pigot_2023@Mezieres2-13_A","Pigot_2023","Mezieres2-13_A",48.721251,1.474666,"2021",1,"",0
+"Pigot_2023@Mezieres2-13_B","Pigot_2023","Mezieres2-13_B",48.721512,1.474628,"2021",1,"",0
+"Pigot_2023@Mezieres2-13_C","Pigot_2023","Mezieres2-13_C",48.721817,1.47409,"2021",1,"",0
+"Pigot_2023@Mezieres2-4_A","Pigot_2023","Mezieres2-4_A",48.721926,1.457192,"2021; 2022",2,"",0
+"Pigot_2023@Mezieres2-4_B","Pigot_2023","Mezieres2-4_B",48.721584,1.457306,"2021; 2022",2,"",0
+"Pigot_2023@Mezieres2-4_C","Pigot_2023","Mezieres2-4_C",48.721136,1.45708,"2021; 2022",2,"",0
+"Pigot_2023@Mezieres22_A","Pigot_2023","Mezieres22_A",48.713739,1.46149,"2022",1,"",0
+"Pigot_2023@Mezieres22_B","Pigot_2023","Mezieres22_B",48.71371,1.461021,"2022",1,"",0
+"Pigot_2023@Mezieres22_C","Pigot_2023","Mezieres22_C",48.713714,1.460403,"2022",1,"",0
+"Pigot_2023@Mezieres26_A","Pigot_2023","Mezieres26_A",48.708215,1.466745,"2021; 2022",2,"",0
+"Pigot_2023@Mezieres26_B","Pigot_2023","Mezieres26_B",48.708712,1.466507,"2021; 2022",2,"",0
+"Pigot_2023@Mezieres26_C","Pigot_2023","Mezieres26_C",48.709258,1.466544,"2021; 2022",2,"",0
+"Pigot_2023@Monnerville5A_A","Pigot_2023","Monnerville5A_A",48.347198,2.057418,"2022",1,"",0
+"Pigot_2023@Monnerville5A_B","Pigot_2023","Monnerville5A_B",48.346954,2.057806,"2022",1,"",0
+"Pigot_2023@Monnerville5A_C","Pigot_2023","Monnerville5A_C",48.34668,2.058186,"2022",1,"",0
+"Pigot_2023@Monnerville8A_A","Pigot_2023","Monnerville8A_A",48.359947,2.033512,"2021; 2022",2,"",0
+"Pigot_2023@Monnerville8A_B","Pigot_2023","Monnerville8A_B",48.359795,2.034013,"2021; 2022",2,"",0
+"Pigot_2023@Monnerville8A_C","Pigot_2023","Monnerville8A_C",48.359576,2.034628,"2021; 2022",2,"",0
+"Pigot_2023@Saclas18_A","Pigot_2023","Saclas18_A",48.347839,2.094908,"2022",1,"",0
+"Pigot_2023@Saclas18_B","Pigot_2023","Saclas18_B",48.348053,2.095354,"2022",1,"",0
+"Pigot_2023@Saclas18_C","Pigot_2023","Saclas18_C",48.348267,2.095723,"2022",1,"",0
+"Pigot_2023@Saclas26_A","Pigot_2023","Saclas26_A",48.350208,2.128288,"2021",1,"",0
+"Pigot_2023@Saclas26_B","Pigot_2023","Saclas26_B",48.349943,2.127832,"2021",1,"",0
+"Pigot_2023@Saclas26_C","Pigot_2023","Saclas26_C",48.349722,2.127337,"2021",1,"",0
+"Pigot_2023@Saclas4_A","Pigot_2023","Saclas4_A",48.375986,2.124802,"2022",1,"",0
+"Pigot_2023@Saclas4_B","Pigot_2023","Saclas4_B",48.37561,2.125245,"2022",1,"",0
+"Pigot_2023@Saclas4_C","Pigot_2023","Saclas4_C",48.375123,2.125903,"2022",1,"",0
+"Pigot_2023@Saclas4A_A","Pigot_2023","Saclas4A_A",48.376005,2.125042,"2021",1,"",0
+"Pigot_2023@Saclas4A_B","Pigot_2023","Saclas4A_B",48.375658,2.125435,"2021",1,"",0
+"Pigot_2023@Saclas4A_C","Pigot_2023","Saclas4A_C",48.375283,2.125902,"2021",1,"",0
+"Pigot_2023@Saint-Martin1_A","Pigot_2023","Saint-Martin1_A",48.496529,1.944047,"2021; 2022",2,"",0
+"Pigot_2023@Saint-Martin1_B","Pigot_2023","Saint-Martin1_B",48.496168,1.944373,"2021; 2022",2,"",0
+"Pigot_2023@Saint-Martin1_C","Pigot_2023","Saint-Martin1_C",48.495945,1.944677,"2021; 2022",2,"",0
+"Pigot_2023@Saint-Nom2_A","Pigot_2023","Saint-Nom2_A",48.842468,1.994767,"2022",1,"",0
+"Pigot_2023@Saint-Nom2_B","Pigot_2023","Saint-Nom2_B",48.842316,1.994303,"2022",1,"",0
+"Pigot_2023@Saint-Nom2_C","Pigot_2023","Saint-Nom2_C",48.842194,1.993817,"2022",1,"",0
+"Pigot_2023@Saint-Nom3A_A","Pigot_2023","Saint-Nom3A_A",48.83749,1.989971,"2021; 2022",2,"",0
+"Pigot_2023@Saint-Nom3A_B","Pigot_2023","Saint-Nom3A_B",48.837065,1.988941,"2021; 2022",2,"",0
+"Pigot_2023@Saint-Nom3A_C","Pigot_2023","Saint-Nom3A_C",48.836955,1.988274,"2021; 2022",2,"",0
+"Pigot_2023@Saint-Nom3B_A","Pigot_2023","Saint-Nom3B_A",48.83724,1.990775,"2021",1,"",0
+"Pigot_2023@Saint-Nom3B_B","Pigot_2023","Saint-Nom3B_B",48.836934,1.99119,"2021",1,"",0
+"Pigot_2023@Saint-Nom3B_C","Pigot_2023","Saint-Nom3B_C",48.836673,1.99154,"2021",1,"",0
+"Pigot_2023@Serville14_A","Pigot_2023","Serville14_A",48.746033,1.663092,"2021",1,"",0
+"Pigot_2023@Serville14_B","Pigot_2023","Serville14_B",48.745889,1.663618,"2021",1,"",0
+"Pigot_2023@Serville14_C","Pigot_2023","Serville14_C",48.745214,1.663646,"2021",1,"",0
+"Pigot_2023@Vieille-Eglise_SD_A","Pigot_2023","Vieille-Eglise_SD_A",48.841758,1.93033,"2022",1,"",0
+"Pigot_2023@Vieille-Eglise_SD_B","Pigot_2023","Vieille-Eglise_SD_B",48.841243,1.93033,"2022",1,"",0
+"Pigot_2023@Vieille-Eglise_SD_C","Pigot_2023","Vieille-Eglise_SD_C",48.84077,1.93025,"2022",1,"",0
+"Pigot_2023@Vieille-Eglise_TCS_A","Pigot_2023","Vieille-Eglise_TCS_A",48.841558,1.93135,"2022",1,"",0
+"Pigot_2023@Vieille-Eglise_TCS_B","Pigot_2023","Vieille-Eglise_TCS_B",48.841075,1.931353,"2022",1,"",0
+"Pigot_2023@Vieille-Eglise_TCS_C","Pigot_2023","Vieille-Eglise_TCS_C",48.84021,1.931325,"2022",1,"",0
+"Pigot_2023@Villeneuve15B_A","Pigot_2023","Villeneuve15B_A",48.283622,1.567751,"2022",1,"",0
+"Pigot_2023@Villeneuve15B_B","Pigot_2023","Villeneuve15B_B",48.283204,1.56754,"2022",1,"",0
+"Pigot_2023@Villeneuve15B_C","Pigot_2023","Villeneuve15B_C",48.282805,1.567338,"2022",1,"",0
+"Pigot_2023@Villeneuve2E_A","Pigot_2023","Villeneuve2E_A",48.283436,1.572834,"2021",1,"",0
+"Pigot_2023@Villeneuve2E_B","Pigot_2023","Villeneuve2E_B",48.283694,1.572857,"2021",1,"",0
+"Pigot_2023@Villeneuve2E_C","Pigot_2023","Villeneuve2E_C",48.284127,1.572727,"2021",1,"",0
+"Pigot_2023@Villeneuve3_A","Pigot_2023","Villeneuve3_A",48.284111,1.575771,"2021; 2022",2,"",0
+"Pigot_2023@Villeneuve3_B","Pigot_2023","Villeneuve3_B",48.283781,1.576058,"2021; 2022",2,"",0
+"Pigot_2023@Villeneuve3_C","Pigot_2023","Villeneuve3_C",48.283546,1.576442,"2021; 2022",2,"",0
+"Pigot_2023@Yermenonville10_A","Pigot_2023","Yermenonville10_A",48.535661,1.629692,"2022",1,"",0
+"Pigot_2023@Yermenonville10_B","Pigot_2023","Yermenonville10_B",48.535256,1.62961,"2022",1,"",0
+"Pigot_2023@Yermenonville10_C","Pigot_2023","Yermenonville10_C",48.534823,1.629592,"2022",1,"",0
+"Pigot_2023@Yermenonville12_A","Pigot_2023","Yermenonville12_A",48.533167,1.632793,"2021",1,"",0
+"Pigot_2023@Yermenonville12_B","Pigot_2023","Yermenonville12_B",48.533143,1.632232,"2021",1,"",0
+"Pigot_2023@Yermenonville12_C","Pigot_2023","Yermenonville12_C",48.533048,1.63172,"2021",1,"",0
+"Pigot_2023@Yermenonville7_A","Pigot_2023","Yermenonville7_A",48.541853,1.6291,"2021",1,"",0
+"Pigot_2023@Yermenonville7_B","Pigot_2023","Yermenonville7_B",48.541775,1.628543,"2021",1,"",0
+"Pigot_2023@Yermenonville7_C","Pigot_2023","Yermenonville7_C",48.541628,1.628222,"2021",1,"",0
+"Pigot_2023@Yermenonville8A_A","Pigot_2023","Yermenonville8A_A",48.540396,1.63115,"2021; 2022",2,"",0
+"Pigot_2023@Yermenonville8A_B","Pigot_2023","Yermenonville8A_B",48.540378,1.630236,"2021; 2022",2,"",0
+"Pigot_2023@Yermenonville8A_C","Pigot_2023","Yermenonville8A_C",48.540445,1.629626,"2021; 2022",2,"",0
+"Pigot_2023@Yermenonville8C_A","Pigot_2023","Yermenonville8C_A",48.543914,1.635411,"2022",1,"",0
+"Pigot_2023@Yermenonville8C_B","Pigot_2023","Yermenonville8C_B",48.543775,1.634818,"2022",1,"",0
+"Pigot_2023@Yermenonville8C_C","Pigot_2023","Yermenonville8C_C",48.543582,1.634306,"2022",1,"",0
 "SEBIOPAG_BVD@11","SEBIOPAG_BVD","11",43.83403302,4.895599142,"2020; 2021; 2022",3,"malus domestica",1
 "SEBIOPAG_BVD@177","SEBIOPAG_BVD","177",43.83027285,4.968225816,"2020; 2021; 2022",3,"malus domestica",1
 "SEBIOPAG_BVD@185","SEBIOPAG_BVD","185",43.83103876,4.986864733,"2020; 2021; 2022",3,"malus domestica",1
@@ -904,6 +1260,39 @@
 "SEBIOPAG_ZAAr@R18","SEBIOPAG_ZAAr","R18",47.9255107339208,-1.89326005360879,"2018; 2021; 2023",3,"Maize ; Winter wheat",2
 "SEBIOPAG_ZAAr@R19","SEBIOPAG_ZAAr","R19",47.9516944168022,-1.93473598671475,"2018; 2021",2,"Spring barley; Winter wheat, oat, rye",2
 "SEBIOPAG_ZAAr@R20","SEBIOPAG_ZAAr","R20",47.9895181512603,-1.99495102271707,"2018; 2021; 2023",3,"Maize ; Winter wheat",2
+"Seree_2022@Bailly_Bande","Seree_2022","Bailly_Bande",48.841449,2.047295,"2019",1,"fev_p",1
+"Seree_2022@Buchelay1","Seree_2022","Buchelay1",48.97475,1.66331,"2020",1,"fev_h",1
+"Seree_2022@Chatelliers5","Seree_2022","Chatelliers5",48.3313,1.21225,"2020",1,"fev_p",1
+"Seree_2022@Chatelliers7","Seree_2022","Chatelliers7",48.331585,1.2202716,"2019",1,"fev_p",1
+"Seree_2022@Corbreuse1","Seree_2022","Corbreuse1",48.510716,1.960592,"2020",1,"fev_h",1
+"Seree_2022@Dourdan7","Seree_2022","Dourdan7",48.550302,1.999123,"2019",1,"fev_h",1
+"Seree_2022@Dourdan9","Seree_2022","Dourdan9",48.54544,2.00647,"2020",1,"fev_h",1
+"Seree_2022@Favrieux30","Seree_2022","Favrieux30",48.9426,1.67163,"2019",1,"fev_p",1
+"Seree_2022@Germainville12","Seree_2022","Germainville12",48.739295,1.5119,"2019",1,"fev_h",1
+"Seree_2022@Germainville9","Seree_2022","Germainville9",48.74622,1.49917,"2020",1,"fev_h",1
+"Seree_2022@Guillerval10","Seree_2022","Guillerval10",48.373377,2.102222,"2019",1,"fev_h",1
+"Seree_2022@Guillerval12","Seree_2022","Guillerval12",48.35497,2.1029,"2020",1,"fev_p",1
+"Seree_2022@Guillerval18","Seree_2022","Guillerval18",48.35336,2.08922,"2020",1,"fev_p",1
+"Seree_2022@Guillerval4","Seree_2022","Guillerval4",48.37737,2.1016,"2019",1,"fev_h",1
+"Seree_2022@Maisse3","Seree_2022","Maisse3",48.40013,2.33826,"2020",1,"fev_h",1
+"Seree_2022@Mespuits30","Seree_2022","Mespuits30",48.35363,2.29775,"2020",1,"fev_p",1
+"Seree_2022@Mezieres219","Seree_2022","Mezieres219",48.726271,1.446482,"2020",1,"fev_p",1
+"Seree_2022@Mezieres41","Seree_2022","Mezieres41",48.74445,1.44703,"2020",1,"fev_h",1
+"Seree_2022@Mondreville17","Seree_2022","Mondreville17",48.91492,1.52705,"2019",1,"fev_p",1
+"Seree_2022@Mondreville24","Seree_2022","Mondreville24",48.91717,1.53198,"2019",1,"fev_h",1
+"Seree_2022@Mondreville3","Seree_2022","Mondreville3",48.908078,1.5521083,"2020",1,"fev_p",1
+"Seree_2022@Mondreville4","Seree_2022","Mondreville4",48.89537,1.55103,"2020",1,"fev_p",1
+"Seree_2022@Monnerville9","Seree_2022","Monnerville9",48.3622383,2.03314,"2020",1,"fev_p",1
+"Seree_2022@Saclas7","Seree_2022","Saclas7",48.374379,2.118985,"2020",1,"fev_p",1
+"Seree_2022@Saint_nom3","Seree_2022","Saint_nom3",48.835905,1.990703,"2020",1,"fev_p",1
+"Seree_2022@Sermaise1","Seree_2022","Sermaise1",48.5215,2.08147,"2020",1,"fev_h",1
+"Seree_2022@Serville3","Seree_2022","Serville3",48.77284,1.46609,"2020",1,"fev_h",1
+"Seree_2022@Serville7","Seree_2022","Serville7",48.770459,1.477448,"2019",1,"fev_h",1
+"Seree_2022@Sonchamp4","Seree_2022","Sonchamp4",48.55963,1.8692,"2020",1,"fev_h",1
+"Seree_2022@Sonchamp5","Seree_2022","Sonchamp5",48.559799,1.870121,"2019",1,"fev_h",1
+"Seree_2022@St_Illiers5","Seree_2022","St_Illiers5",48.972629,1.505532,"2019",1,"fev_p",1
+"Seree_2022@Villeneuve2","Seree_2022","Villeneuve2",48.28179,1.57272,"2019",1,"fev_h",1
+"Seree_2022@Yermenonville5","Seree_2022","Yermenonville5",48.544491,1.629455,"2019",1,"fev_p",1
 "SERIPAGE@TF_01_066c","SERIPAGE","TF_01_066c",48.6405813821694,-1.32993889828862,"2016",1,"Winter wheat",1
 "SERIPAGE@TF_03_051c","SERIPAGE","TF_03_051c",48.5688277158595,-1.13693444996317,"2016",1,"Winter wheat",1
 "SERIPAGE@TF_06_042c","SERIPAGE","TF_06_042c",48.6025657355125,-1.31281561084475,"2016",1,"Winter wheat",1
