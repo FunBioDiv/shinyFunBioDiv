@@ -82,7 +82,7 @@ agrim_pts <- st_centroid(agrim)
 agrim_pts <- st_transform(agrim_pts, "EPSG:4326")
 agrim_coo <- st_coordinates(agrim_pts)
 agrim_df <- data.frame(
-    "Study_ID" = "Agrim_2019",
+    "Study_ID" = "Agrim2019",
     "Plot_ID" = agrim_pts$AGRIM_2019,
     "Year" = 2019,
     "Crop_species" = agrim_pts$LIB_2019,
@@ -95,7 +95,7 @@ meta <- rbind(meta, agrim_df)
 seree <- read.csv2("data/Seree_2022/Data_pucerons.csv")
 # https://doi.org/10.1016/j.agee.2022.107902
 seree_df <- data.frame(
-    "Study_ID" = "Seree_2022",
+    "Study_ID" = "Seree2022",
     "Plot_ID" = seree$Parcelle,
     "Year" = seree$annee,
     "Crop_species" = seree$culture,
@@ -111,7 +111,7 @@ pigot <- readxl::read_xlsx(
 )
 # https://theses.hal.science/tel-04453600v1
 pigot_df <- data.frame(
-    "Study_ID" = "Pigot_2023",
+    "Study_ID" = "Pigot2023",
     "Plot_ID" = paste(pigot$Parcelle, pigot$Quadrat, sep = "_"),
     "Year" = substr(pigot$Campagne, 6, 9),
     "Crop_species" = NA,
@@ -127,7 +127,7 @@ herrera <- readxl::read_xlsx(
 )
 # https://doi.org/10.57745/HPEMYW
 herrera_df <- data.frame(
-    "Study_ID" = "Herrera_2026",
+    "Study_ID" = "Herrera2026",
     "Plot_ID" = paste(
         herrera$Site_corrected,
         herrera$`Code parcelle`,
@@ -163,7 +163,7 @@ a22_df <- data.frame(
     "Long" = sapply(coo, function(x) as.numeric(x[2]))
 )
 a23_df <- a22_df
-a23_df$Year = 2023
+a23_df$Year <- 2023
 meta <- rbind(meta, a22_df, a23_df)
 
 # 8. add PestiRed data from Roberti Giotto on 18/06/2026
